@@ -1,0 +1,100 @@
+
+.faqContainer {
+    display: flex;
+    gap: 4%;
+}
+.tabs h3 {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.font-Title {
+    color: red;
+    font-weight: 500;
+    color: #D22027;
+    font-family: 'Ubuntu';
+    font-size: 25px;
+    line-height: 35px;
+}
+.activeTab {
+    color: #D22027;
+    font-family: 'ubuntu';
+    font-weight: 500;
+    transition: all 0.5 ease;
+}
+.activeTab::before{
+    content: url('../images/Rectangle\ 113.png');
+    padding: 7px;
+    transition: all 0.5 ease;
+}
+
+
+
+button.accordion-button{
+    color:#0D1035;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+}
+div.accordion-body {
+    font-family: 'Ubuntu';
+    text-align: justify;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    font-weight:200 ;
+}
+button.accordion-button:not(.collapsed){
+    color:#0D1035;
+   background-color: white;
+   border-color: white;
+}
+button.accordion-button::after{
+    background-image: url(../images/Polygon\ 11.png);
+}
+button.accordion-button:focus{
+    border-color: #fff;
+    box-shadow: none;
+}
+button.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/Polygon\ 12.png);
+    transform: rotate(0deg);
+}
+
+.nav-pills button.nav-link.active{
+    background-color: white;
+    color: #D22027;
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    font-weight: 420;
+    text-align: left;
+}
+
+.nav-pills button.nav-link.active::before{
+   content: url('../images/Rectangle\ 113.png');
+   padding: 7px;
+}
+.nav-pills button.nav-link {
+    color: #0D1035;
+    text-align: left;
+    font-family: 'Ubuntu';
+    margin: 0px 40px;
+    font-size: 18px;
+    font-weight: 420;
+}
+div.accordion-item {
+    border: 0;
+    border-bottom: 1px solid #C1C1C1;
+}
+
+@media only screen and (max-width:768px) {
+        .faqContainer{
+            display: block;
+        }
+        .tabs_p {
+            display: flex;
+            justify-content: space-between;
+        }
+
+}

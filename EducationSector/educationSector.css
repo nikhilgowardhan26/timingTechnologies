@@ -1,0 +1,1097 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+body {
+  font-family: "Ubuntu";
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+#navItem-Services {
+  color: #d22027 !important ;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Ubuntu', sans-serif;
+  color: #000033 !important;
+  font-weight: 500;
+  font-size: 19px !important;
+  /* margin-right: 15px; */
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #D22027 !important;
+  font-weight: 00;
+  font-size: 19px !important;
+  /* margin-right: 15px; */
+}
+
+/* middle css */
+.main-top_1 {
+  margin-top: 7% !important;
+}
+.secondary {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 50px;
+  color: #6b6b6b;
+  background-color: #f5f5f5;
+}
+
+.bg_img {
+  position: relative;
+  margin-top: 1%;
+}
+
+.lms {
+  position: absolute;
+  z-index: 1;
+  margin-top: -54%;
+  width: 48%;
+  margin-left: 48%;
+}
+
+.hr_vr_image {
+  position: absolute;
+  bottom: -7px;
+  right: 0;
+  width: 40%;
+  height: 60%;
+}
+
+.education_text_01 {
+  /* position: relative; */
+  font-family: "Ubuntu";
+  font-weight: 300;
+}
+
+/* .mission_text {
+  position: absolute;
+  position: absolute;
+  width: 230px;
+  right: 227px;
+  bottom: 500px;
+  font-size: 14px;
+} */
+.mission_text {
+  position: absolute;
+  position: absolute;
+  width: 300px;
+  right: 165px;
+  bottom: 429px;
+  font-size: 14px;
+}
+
+/* .economically_text {
+  position: absolute;
+  position: absolute;
+  width: 230px;
+  right: 227px;
+  bottom: 230px;
+  font-size: 14px;
+} */
+.economically_text {
+  position: absolute;
+  position: absolute;
+  width: 300px;
+  right: 165px;
+  bottom: 190px;
+  font-size: 14px;
+}
+
+.offerings_text {
+  position: absolute;
+  width: 230px;
+  right: 525px;
+  bottom: 92px;
+  font-size: 14px;
+}
+
+.line23 {
+  z-index: 1;
+  margin-top: 34%;
+  margin-right: -53%;
+}
+
+
+.text_position {
+  position: relative;
+}
+
+.primary {
+  /* margin-left: -3.5%; */
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 25px;
+  /* margin-top: 0.5%; */
+}
+
+.cms {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 50px;
+  color: #1b3954;
+}
+
+.software {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.features {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 48px;
+}
+
+.bg_mid {
+  background-color: #f3f8fb;
+  border-radius: 20px;
+  margin-top: 1%;
+}
+
+.massaging {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 25px;
+  color: #78a183;
+}
+
+.teachers {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  color: #1b3954;
+}
+
+.mentioned {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 35px;
+}
+
+.tms {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 50px;
+  color: #1b3954;
+}
+
+.me-3 {
+  background-color: #f5f5f5c2;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.Planning {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #d22027;
+  text-align: center;
+}
+
+.plan {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.management {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 47px;
+  text-align: center;
+}
+
+.SAMS {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 59px;
+  line-height: 50px;
+  color: #1b3954;
+}
+
+.sports {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-size: 27px;
+  line-height: 47px;
+}
+
+.streamline {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 47px;
+}
+
+.me-4 {
+  background-color: #f6f6f6;
+  padding: 3%;
+  border-radius: 20px;
+}
+
+.Create {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  color: #d22027;
+}
+
+.activity {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.enhance,
+/* .economically {
+  bottom: 50px !important;
+  padding-left: 63%;
+  text-align: left;
+} */
+.offerings {
+  text-align: right;
+}
+
+.bottom-0 {}
+
+
+.main-top {
+  padding: 50px 50px 50px 80px;
+  background-color: #ffffff;
+}
+
+
+.bottom-screen {
+  background-color: #f4f9ff;
+  border-radius: 75px;
+  margin-top: 17px;
+  margin-right: -8px;
+  padding-bottom: 150px;
+  z-index: 1;
+}
+
+.text_carousel_main {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 52.5px;
+}
+
+.text_carousel {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 52.5px;
+}
+
+.contact-space {
+  padding: 60px 0px 35px 60px !important;
+}
+
+.icons {
+  color: #ffffff;
+  font-size: 25px !important;
+  letter-spacing: 30px;
+  line-height: 30px;
+}
+
+.copyright {
+  color: #fff;
+}
+
+.sticky {
+  height: 30px;
+  position: sticky;
+  top: 70px;
+  z-index: 2;
+  background-color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .sticky {
+      display: none;
+  }
+}
+
+.bread-crumb-a {
+  font-family: "Ubuntu";
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #6b6b6b;
+  font-weight: 300;
+}
+
+.educationSector_Container {
+  position: relative;
+  width: 100%;
+}
+
+
+
+@media only screen and (max-width: 1366px) {
+  .mission_text {
+    position: absolute;
+    position: absolute;
+    width: 300px;
+    right: 31px;
+    bottom: 126px;
+    font-size: 14px;
+  }
+
+  .economically_text {
+    position: absolute;
+    position: absolute;
+    width: 300px;
+    right: 31px;
+    bottom: 278px;
+    font-size: 14px;
+  }
+
+  .offerings_text {
+    position: absolute;
+    width: 230px;
+    right: 377px;
+    bottom: 92px;
+    font-size: 14px;
+  }
+}
+
+#navBarComponent2:hover {
+  background: #e6e6e6 !important;
+  border-radius: 20px;
+}
+
+#navBarComponent1:hover {
+  background: #e6e6e6 !important;
+  border-radius: 20px;
+}
+
+.dropdown-item:hover {
+  background-color: #e6e6e600 !important;
+  color: #161616 !important;
+  font-weight: 700;
+}
+
+.dropdown-item:active {
+  background-color: #e6e6e600 !important;
+  color: #d22027 !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d22027;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+
+.sams_mini_container {
+  display: flex;
+  gap: 5%;
+  text-align: center;
+  margin: 2% 0;
+}
+
+.sams_mini_container .col,
+.TM_container .col {
+  background-color: #F6F6F6;
+  padding: 2%;
+  border-radius: 20px;
+  /* margin: 2%; */
+}
+
+
+.TM_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+  gap: 1.5%;
+
+
+}
+
+.TM_min {
+  background-color: #FAFAFA;
+  border: 1px solid #ebebeb;
+  width: 200px;
+  margin: 2% auto;
+  padding: 2%;
+  border-radius: 20px;
+}
+
+@media only screen and (min-width: 2000px) {
+  .SAMS {
+    font-size: 56px;
+    line-height: 84px;
+  }
+}
+
+@media only screen and (max-width: 2000px) {
+  .SAMS {
+    font-size: 56px;
+    line-height: 84px;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  .SAMS {
+    font-size: 48px;
+    line-height: 61px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .SAMS {
+    font-size: 48px;
+    line-height: 61px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .SAMS {
+    font-size: 27px;
+    line-height: 22px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .SAMS {
+    font-size: 46px;
+    line-height: 46px;
+  }
+
+  .sports {
+    font-size: 21px;
+    line-height: 18px;
+  }
+
+  .streamline {
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .Create {
+    font-size: 19px;
+    line-height: 24px;
+  }
+
+  .activity {
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .management {
+    font-size: 19px;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width:768px) {
+  .sticky {
+    display: none;
+  }
+  
+}
+@media only screen and (max-width: 800px) {}
+
+@media only screen and (max-width: 768px) {
+  .sams_mini_container {
+    display: block;
+  }
+
+  .sams_mini_container .col {
+    margin-bottom: 2%;
+  }
+
+  .SAMS {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .sports {
+    font-size: 21px;
+    line-height: 18px;
+  }
+
+  .streamline {
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .Create {
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+
+  }
+
+  .activity {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+  }
+
+  .management {
+    font-size: 19px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .SAMS {
+    font-size: 32px;
+    line-height: 22px;
+  }
+
+  .sports {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .streamline {
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .Create {
+    font-size: 15px;
+    line-height: 18px;
+
+  }
+
+  .activity {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .management {
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .TM_container {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 320px) {}
+
+
+
+
+
+/* ================================================== */
+.educationalParent {
+  max-width: 1308px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.educationalVideo {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.eduction_text {
+  position: absolute;
+  text-align: left;
+  left: 5%;
+  top: 0;
+}
+
+.Definitive {
+  font-family: "Ubuntu" !important;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 50px;
+  color: #000033;
+  max-width: 740px;
+  /* float: right; */
+  /* position: relative; */
+}
+
+.timing {
+  font-size: 30px;
+  line-height: 30px;
+  max-width: 800px;
+  color: #000033 !important;
+  font-weight: 700;
+  font-family: "Ubuntu" !important;
+}
+
+.mission {
+  font-family: "Ubuntu" !important;
+  font-size: 15px;
+  max-width: 500px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #333333;
+}
+
+
+.mask1 {
+  width: 100%;
+  mask-image: url(data:image/svg+xml;base64,Cjxzdmcgd2lkdGg9IjE3NzYiIGhlaWdodD0iMTE3NyIgdmlld0JveD0iMCAwIDE3NzYgMTE3NyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04NDEuNzU1IDMyNy41MDVDODIwLjQzNCAzMzEuMjYyIDc5OS43NjEgMzQwLjIzNyA3ODEuNjk2IDM1NC42NTlDNzIzLjU5OSA0MDEuMDQgNzE0LjQ3IDQ4Ni4xOTkgNzYxLjMwNyA1NDQuODY1QzgwOC4xNDMgNjAzLjUzMiA4OTMuMjA4IDYxMy40OTEgOTUxLjMwNCA1NjcuMTFDMTAwMi43NCA1MjYuMDQ0IDEwMTUuNzkgNDU0LjU4IDk4NS42MDIgMzk4LjAxOUM5NzkuMDIxIDM4NS42OTIgOTgwLjQ2NSAzNjkuOTA2IDk5MS4yODQgMzYxLjI2OUMxMDA3LjAyIDM0OC43MDYgMTAzMS4wOSAzNTkuMDc0IDEwMzUuNzkgMzc4LjgxOUMxMDQ2LjEyIDQyMi4yNSAxMDY2IDQ2NC4yMDYgMTA5NS43NiA1MDEuNDgzQzEyMDIuODEgNjM1LjU3OCAxMzk3LjI0IDY1OC4zNDIgMTUzMC4wNCA1NTIuMzI4QzE1NjMuMjggNTI1Ljc4NSAxNjE1LjE0IDUxOC43MTMgMTY2MC43NiA1MTIuNDkyQzE2NjkuODkgNTExLjI0NyAxNjc4Ljc2IDUxMC4wMzYgMTY4Ny4xOSA1MDguNzExQzE3MDQuNjEgNTA1Ljk3IDE3MjEuNTUgNDk4LjgxOSAxNzM2LjI5IDQ4Ny4wNTdDMTc4MS45NCA0NTAuNjE1IDE3ODkuMTEgMzgzLjcwNSAxNzUyLjMxIDMzNy42MUMxNzM3Ljc2IDMxOS4zOSAxNzE4LjgzIDMwMS4yMDcgMTY5OS40NyAyODIuNjE0QzE2NjcuMDEgMjUxLjQ0NyAxNjMzLjM2IDIxOS4xMzEgMTYxNy4xOSAxODMuNTc2QzE2MDYuNjkgMTYwLjQ5NCAxNTkzLjIgMTM4LjMwOSAxNTc2LjY0IDExNy41NzFDMTQ2OS41OSAtMTYuNTIzOSAxMjc1LjE1IC0zOS4yODc5IDExNDIuMzYgNjYuNzI2M0MxMDk1LjY5IDEwMy45ODIgMTA2Mi44NSAxNTIuMTgzIDEwNDQuNTIgMjA0Ljg1NUMxMDMzLjY5IDIzNi4wMDMgMTAxNy41OSAyNjUuNzI0IDk5MS44OTEgMjg2LjI0NEM5NjAuMzY2IDMxMS40MTEgOTE4LjQ4MSAzMTYuOTEgODc3LjMxIDMyMi4zMTZDODY1LjMwNiAzMjMuODkyIDg1My4zNjMgMzI1LjQ2IDg0MS43NTUgMzI3LjUwNVpNNDIyLjU2MSAxMTIxLjc5QzQ1NS44MjIgMTA3NC4wNCA1MDIuNTE0IDEwMDcuODUgNTU1LjcxNCA5ODQuMzIzQzYxNC4wODggOTU4LjUwOSA3MDkuODY4IDk1OS44MDIgNzc5LjYzNCA5NjAuNzQzQzc4Ni43MDggOTYwLjgzOCA3OTMuNTE0IDk2MC45MyA3OTkuOTg3IDk2MC45OUM4MjAuMjc2IDk2MS4xNzcgODQwLjkyNyA5NTcuMTQ0IDg2MC42ODcgOTQ4LjQwNkM5MzQuOTk2IDkxNS41NDYgOTY4LjU2MyA4MjguNTg5IDkzNS42NiA3NTQuMTgxQzkwMi43NTcgNjc5Ljc3NCA4MTUuODQzIDY0Ni4wOTQgNzQxLjUzNCA2NzguOTU0QzcyNS4xMjcgNjg2LjIwOSA3MDMuNDAxIDY3OC40NjggNjk2Ljg4MyA2NjEuNzI5QzY5NS41NjkgNjU4LjM1NSA2OTQuMTc0IDY1NC45OTYgNjkyLjY5NSA2NTEuNjU0QzY0My44NzggNTQxLjI1NyA1MjEuMTEyIDQ4NS41MDkgNDAzLjAzOSA1MTIuODkxQzM4MC4yOTggNTE4LjE2NSAzNTUuOTE2IDUwNC41NjkgMzQ2LjQ2MyA0ODMuMTkyQzMwNi4wMzkgMzkxLjc3NyAxOTkuMjYgMzUwLjM5OCAxMDcuOTY2IDM5MC43NjlDMTYuNjcxNCA0MzEuMTQgLTI0LjU2NzMgNTM3Ljk3MyAxNS44NTY3IDYyOS4zODhDMjkuNjY1OCA2NjAuNjE2IDUxLjIxODMgNjg2LjAwNSA3Ny4yNTE4IDcwNC4yOUMxMzEuMjE2IDc0Mi4xOTQgMTkwLjc2OSA4MDEuNDc3IDIxNy40NDkgODYxLjgxQzIzMy44OTkgODk5LjAxIDIyMy4xMTkgOTUwLjYyIDIwMy43NzkgOTg2LjM2NUMxODUuNDQ3IDEwMjAuMjUgMTgyLjQ0NSAxMDYxLjk3IDE5OS4yNDMgMTA5OS45NkMyMjguMDM0IDExNjUuMDcgMzA0LjA4MyAxMTk0LjU0IDM2OS4xMDMgMTE2NS43OUMzOTEuNDMgMTE1NS45MSA0MDkuNTUzIDExNDAuNDYgNDIyLjU2MSAxMTIxLjc5WiIgZmlsbD0iI0RBQ0RGOCIvPgo8L3N2Zz4K);
+  mask-size: 100% 99%;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  video {
+    width: 100%;
+  }
+}
+.gridContainer{
+  /* background-image: url('../images/crossLines.png');
+  background-size: 100% 100%; */
+  background-position:center;
+  background-repeat: no-repeat;
+  max-width:500px;
+  max-height: 400px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns:  repeat(2, 1fr);
+  gap: 2%;
+}
+.item1, .item2, .item3{
+  font-size: 17px;
+  font-family: 'ubuntu' !important;
+  font-weight: 500;
+  color: #666666 !important;
+}
+.item1 {  
+  position: relative;
+  grid-row: 1;
+  grid-column: 2;
+  padding: 0 0 25px 25px;
+  text-align: left;
+}
+.item1::before , .item1::after{
+  content: '';
+  position: absolute;
+}
+
+.item1::before {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 2px;  /* Width of the left border */
+  background: linear-gradient(to top,rgb(179, 179, 179) 0%, rgba(188, 188, 188, 0) 100%);
+}
+.item1::after{
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;  /* Height of the bottom border */
+  background:linear-gradient(to right,rgb(179, 179, 179) 0%, rgba(188, 188, 188, 0) 100%);
+}
+.item2 {  
+  grid-row: 2;
+  grid-column: 1;
+  padding: 25px 25px 0 0;
+  text-align: right;
+  position: relative;
+}
+.item2::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -20px;
+  right: -10px;
+  height: 2px;
+  background: linear-gradient(to left, rgb(179, 179, 179) 0%, rgba(188, 188, 188, 0) 100%);
+}
+
+
+.item3 {  
+  grid-row: 2;
+  grid-column: 2;
+  padding: 25px 0 0 25px;
+  text-align: left;
+  position: relative;
+}
+
+.item3::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  bottom: 0;
+  width: 2px; /* Width of the left border */
+  background: linear-gradient(to bottom, rgb(179, 179, 179) 0%, rgba(188, 188, 188, 0) 100%);
+}
+
+.gridParent{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media only screen and (min-width: 2000px) {
+  .educationalVideo {
+    margin: 10% auto;
+  }
+
+  .eduction_text {
+    left: 5%;
+  }
+
+  .Definitive {
+    font-size: 45px;
+    line-height: 50px;
+    max-width: 740px;
+
+  }
+
+  .timing {
+    font-size: 21px;
+    line-height: 29px;
+  }
+
+  .mission {
+    max-width: 516px;
+    font-size: 19px;
+    line-height: 23px;
+  }
+}
+
+@media only screen and (max-width: 2000px) {
+  .educationalVideo {
+    margin: 10% auto;
+  }
+  .eduction_text {
+    left: 5%;
+  }
+  .Definitive {
+    font-size: 45px;
+    line-height: 50px;
+    max-width: 740px;
+  }
+
+  .timing {
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .mission {
+    max-width: 516px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+
+}
+
+@media only screen and (max-width: 1800px) {}
+
+@media only screen and (max-width: 1500px) {
+  .Definitive {
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .educationalVideo {
+    margin: 10% auto;
+  }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .educationalVideo{
+    margin-top: 15% ;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eduction_text{
+    position: static;
+  }
+  .gridParent{
+    position: static;
+    margin: 0 auto;
+  }
+  .gridContainer{
+    margin: 0 auto;
+  }
+
+  .mask1 {
+    mask-image: url(data:image/svg+xml;base64,Cjxzdmcgd2lkdGg9IjQ0NSIgaGVpZ2h0PSIyNTAiIHZpZXdCb3g9IjAgMCA0NDUgMjUwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNzIwXzEzNTA0KSI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMjI3LjE3OSAzMy43NTU2QzIyMS43IDMyLjQyOSAyMTUuODMxIDMyLjQxNTIgMjEwLjAxNiAzMy45NzMzQzE5MS4zMTYgMzguOTgzOSAxODAuMjU5IDU4LjM1MzUgMTg1LjMxOCA3Ny4yMzY3QzE5MC4zNzggOTYuMTE5OSAyMDkuNjM5IDEwNy4zNjYgMjI4LjMzOSAxMDIuMzU1QzI0NC44OTYgOTcuOTE4OSAyNTUuNDYxIDgyLjIyNiAyNTQuMTU0IDY1LjU4MDhDMjUzLjg2OSA2MS45NTI5IDI1NS44NTkgNTguMzM2NCAyNTkuMzQxIDU3LjQwMzRDMjY0LjQwNiA1Ni4wNDYzIDI2OS4wNyA2MS4wMzAxIDI2OC4xMzIgNjYuMjMxOUMyNjYuMDY5IDc3LjY3MzIgMjY2LjQzNyA4OS43NTc1IDI2OS42NTIgMTAxLjc1NkMyODEuMjE3IDE0NC45MTcgMzI1LjI0MiAxNzAuNjIyIDM2Ny45ODUgMTU5LjE3QzM3OC42ODYgMTU2LjMwMiAzOTEuNzk4IDE2MC4wMjIgNDAzLjMzMyAxNjMuMjkzQzQwNS42NCAxNjMuOTQ4IDQwNy44ODUgMTY0LjU4NCA0MTAuMDM0IDE2NS4xNDdDNDE0LjQ3OCAxNjYuMzEgNDE5LjI2NiAxNjYuMzcgNDI0LjAwOCAxNjUuMDk5QzQzOC43MDEgMTYxLjE2MiA0NDcuMzg5IDE0NS45NDMgNDQzLjQxMyAxMzEuMTA2QzQ0MS44NDIgMTI1LjI0MiA0MzkuMjE5IDExOC45MjggNDM2LjUzNyAxMTIuNDczQzQzMi4wNDIgMTAxLjY1MSA0MjcuMzgxIDkwLjQzMDcgNDI3LjIzIDgwLjI2MDVDNDI3LjEzMiA3My42NTggNDI2LjIyNCA2Ni45NTY2IDQyNC40MzYgNjAuMjgxOEM0MTIuODcxIDE3LjEyMDIgMzY4Ljg0NiAtOC41ODQ4MSAzMjYuMTA0IDIuODY3OTZDMzExLjA4MyA2Ljg5MjY3IDI5OC4yMiAxNC45NzA2IDI4OC4zNTUgMjUuNjI5MUMyODIuNTIxIDMxLjkzMiAyNzUuNTgyIDM3LjM0NjUgMjY3LjMwOSAzOS41NjMyQzI1Ny4xNjIgNDIuMjgyIDI0Ni41OTMgMzkuMjI3MiAyMzYuMjA1IDM2LjIyNDRDMjMzLjE3NiAzNS4zNDg5IDIzMC4xNjMgMzQuNDc3OSAyMjcuMTc5IDMzLjc1NTZaTTEwOS45MzggMjM1LjYxNUMxMTguNiAyMjMuMTgxIDEzMC43NTkgMjA1Ljk0NCAxNDQuNjEzIDE5OS44MThDMTU5LjgxNSAxOTMuMDk1IDE4NC43NTggMTkzLjQzMiAyMDIuOTI2IDE5My42NzdDMjA0Ljc2OCAxOTMuNzAyIDIwNi41NCAxOTMuNzI2IDIwOC4yMjYgMTkzLjc0MUMyMTMuNTEgMTkzLjc5IDIxOC44ODggMTkyLjc0IDIyNC4wMzMgMTkwLjQ2NEMyNDMuMzg1IDE4MS45MDcgMjUyLjEyNiAxNTkuMjYyIDI0My41NTcgMTM5Ljg4NUMyMzQuOTg5IDEyMC41MDggMjEyLjM1NSAxMTEuNzM3IDE5My4wMDQgMTIwLjI5NEMxODguNzMxIDEyMi4xODQgMTgzLjA3MyAxMjAuMTY4IDE4MS4zNzYgMTE1LjgwOUMxODEuMDM0IDExNC45MyAxODAuNjcgMTE0LjA1NiAxODAuMjg2IDExMy4xODVDMTY3LjU3MyA4NC40MzYgMTM1LjYwMiA2OS45MTgzIDEwNC44NTQgNzcuMDQ5MUM5OC45MzIxIDc4LjQyMjQgOTIuNTgyNiA3NC44ODE3IDkwLjEyMDkgNjkuMzE0OEM3OS41OTM4IDQ1LjUwODkgNTEuNzg2OCAzNC43MzMxIDI4LjAxMjIgNDUuMjQ2M0M0LjIzNzU5IDU1Ljc1OTYgLTYuNTAxNjUgODMuNTgwNyA0LjAyNTQyIDEwNy4zODdDNy42MjE1NSAxMTUuNTE5IDEzLjIzNDIgMTIyLjEzMSAyMC4wMTM3IDEyNi44OTNDMzQuMDY2OCAxMzYuNzYzIDQ5LjU3NTUgMTUyLjIwMiA1Ni41MjMzIDE2Ny45MTNDNjAuODA3MiAxNzcuNjAxIDU4LjAwMDEgMTkxLjA0MSA1Mi45NjM1IDIwMC4zNDlDNDguMTg5NiAyMDkuMTczIDQ3LjQwNzcgMjIwLjAzOSA1MS43ODI0IDIyOS45MzJDNTkuMjc5OSAyNDYuODg3IDc5LjA4NDMgMjU0LjU2MSA5Ni4wMTY3IDI0Ny4wNzRDMTAxLjgzMSAyNDQuNTAzIDEwNi41NTEgMjQwLjQ3OCAxMDkuOTM4IDIzNS42MTVaIiBmaWxsPSIjREFDREY4Ii8+CjwvZz4KPGRlZnM+CjxjbGlwUGF0aCBpZD0iY2xpcDBfNzIwXzEzNTA0Ij4KPHJlY3Qgd2lkdGg9IjQ0NSIgaGVpZ2h0PSIyNTAiIGZpbGw9IndoaXRlIi8+CjwvY2xpcFBhdGg+CjwvZGVmcz4KPC9zdmc+Cg==);
+  }
+  .educationalVideo{
+   margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .mask1{
+    width: 120%;
+    margin: 0 -11%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .gridContainer{
+    display: block;
+    margin: 0 0;
+    width: auto;
+    height: auto;
+  }
+  .item1,.item2,.item3{
+    padding: 0;
+    margin-bottom: 3%;
+    text-align: left;
+    border: none;
+  }
+  .item1::before,.item1::after{
+    content: none;
+    position: static;
+    height: 0;
+    background: none;
+  }
+  
+  .item2::before, .item3::before{
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    height: 2px;
+    width: 100%;
+    background: radial-gradient(circle, rgb(180, 180, 180) 50%, rgba(254, 180, 123, 0) 100%);
+  }
+  /* .item1::before, .item1::after, .item2::before, .item3::before {
+    content: none;
+    position: static;
+    height: 0;
+    background: none;
+  } */
+  .gridContainer{
+    padding: 4%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .educationalParent {
+    margin-top: 80px;
+  }
+
+  .Definitive {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .timing {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+  }
+
+  .mission {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .item1,.item2,.item3{
+    padding: 0;
+  }
+  .gridContainer{
+    padding: 4%;
+  }
+}
+
+@media only screen and (max-width: 320px) {}
+
+/* ================================================= */
+
+/* feature */
+
+.featureContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2%;
+  /* align-items: center; */
+  /* gap: 5%; */
+}
+.feature_min{
+  padding: 2%;
+  max-width: 280px;
+  /* border: 1px solid red; */
+}
+.massaging{
+  height: 60px;
+  line-height: 33px;
+}
+.teachers{
+  color: #1B3954;
+}
+
+@media only screen and (max-width: 2000px) {}
+
+@media only screen and (max-width: 1800px) {}
+
+@media only screen and (max-width: 1500px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 1024px) {
+
+
+  .trans_container {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .featureContainer {
+    display: block;
+  }
+  .feature_min{
+    max-width: 100%;
+  }
+  .massaging{
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .features{
+    font-size:23px;
+  }
+  .feature_min{
+    margin: 0 auto;
+  }
+  .mentioned {
+    font-size: 15px;
+    line-height: 19px;
+    /* text-align: justify; */
+  }
+  .massaging{
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .teachers{
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+@media only screen and (max-width: 320px) {}
+
+/* feature */
+ /* Student Administration Software  */
+ .stdAdm_Container {
+  margin-top: 200px;
+ }
+
+.sas, .cms {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 50px;
+  color: #1b3954;
+}
+.sasContainer, .cmdContainer{
+  padding: 2%;
+  display: flex;
+  gap: 4%;
+}
+.sasMin_01, .cms_01 {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sasMin_02, .cms_02 {
+  padding: 3%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+@media only screen and (max-width: 2000px){ }
+@media only screen and (max-width: 1800px){ }
+@media only screen and (max-width: 1500px){ }
+@media only screen and (max-width: 1200px){ }
+@media only screen and (max-width: 1024px){
+  .sasContainer, .cmdContainer{
+    display: block;
+  }
+  .sasMin_01, .sasMin_02 ,.cms_01, .cms_02{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .stdAdm_Container{
+    margin-top: 150px;
+  }
+}
+@media only screen and (max-width: 800px){ }
+@media only screen and (max-width: 768px){ 
+  .stdAdm_Container{
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 425px){ 
+  .stdAdm_Container{
+    margin-top: 50px;
+  }
+  .sas, .cms{
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+@media only screen and (max-width: 350px){ 
+  .stdAdm_Container{
+    margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 320px){ }
+
+ /* Student Administration Software  */
+
+ /*  Communication Management System */
+ .cmdContainer{
+  flex-direction: row-reverse;
+ }
+
+ /*  Communication Management System */

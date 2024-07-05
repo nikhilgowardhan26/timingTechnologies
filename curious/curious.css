@@ -1,0 +1,181 @@
+.curious_outer_container{
+  max-width: 1308px;
+  margin: 2% auto;
+  padding: 1%;
+}
+.curiousContainer {
+  position: relative;
+  padding: 40px 0 40px 40px;
+}
+.curiousMain {
+  position: relative;
+  background-color: #F4F9FF;
+  height: 590px;
+  border: 1px solid #F4F9FF;
+  border-radius: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+}
+
+
+.dotImg {
+  position: absolute;
+  top: 0px;
+  width: 120px;
+  right: 10px;
+  img {
+    width: 100%;
+  }
+}
+.rectangle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.peoplesImage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.curious {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(212, 32, 39);
+  max-width: 400px;
+}
+
+.access {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(117, 117, 117);
+}
+.requestDemo {
+    background-color: #D42027;
+    padding: 15px 25px !important;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'ubuntu';
+    border-radius: 29px;
+    font-size: 18px
+}
+.curiousLeft{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+
+@media only screen and (max-width: 1500px){
+  .curiousMain {
+    height: 550px !important;
+  }
+ }
+@media only screen and (max-width: 1200px){
+  .curiousMain{
+    height: 500px !important;
+  }
+ }
+@media only screen and (max-width: 1024px){
+  .curiousMain{
+    height: 480px !important;
+  }
+  .curious {
+     font-size: 40px;
+     line-height: 45px;
+  }
+ 
+  .requestDemo {
+    font-size: 15px !important;
+    padding: 10px 15px !important;
+  }
+ }
+@media only screen and (max-width: 800px){ 
+  .curiousMain{
+    height: 450px !important;
+  }
+}
+@media only screen and (max-width: 768px){
+  .curious_outer_container{
+    margin: 0;
+    padding: 0;
+  }
+  .curiousContainer {
+     padding: 0;
+  }
+  .frame4, .rectangle, .dotImg {
+    display: none;
+  }
+  .curiousMain{
+    border-radius: 0;
+    padding: 0;
+    height: 280px !important;
+  }
+  .curiousLeft{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .curious {
+    font-size: 35px !important;
+    line-height: 39px;
+    text-align: center !important;
+  }
+  .requestDemo {
+    font-size: 15px !important;
+    padding: 10px 15px !important;
+  }
+  .access{
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+  }
+ }
+@media only screen and (max-width: 600px){ 
+  .curious {
+    font-size: 30px !important;
+  }
+  
+}
+@media only screen and (max-width: 425px){ 
+  .curious {
+    font-size: 24px !important;
+    line-height: 30px;
+    text-align: center !important;
+  }
+  .curiousMain{
+    height: 250px !important;
+  }
+  .requestDemo {
+    font-size: 13px !important;
+    padding:7px !important;
+  }
+  .curiousLeft{
+    margin: 0 auto;
+  }
+  
+ 
+}
+/* 
+
+.background_img_conatiner {
+  border: 1px solid;
+  height: 500px;
+  background-image: url(../images/legs.png) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% 100%;
+
+} */

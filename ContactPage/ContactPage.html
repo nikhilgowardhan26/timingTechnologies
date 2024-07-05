@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timing</title>
+    <link rel="stylesheet" href="../ContactPage/ContactPage.css">
+    <link rel="stylesheet" href="../css/form_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="image/x-icon" href="../images/favicon/T_favicon.png">
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <style>
+        #navItem-contact {
+            color: #d22027;
+            }
+    </style>
+</head>
+
+<body>
+    <div id="header-content"></div>
+    <div class="main-space container">
+        <div class="weAreHere" >
+            <div class="col my-3">
+                <p class="here" data-aos="fade-right">We’re here for you.</p>
+                <p class="how" data-aos="fade-left">Regardless of how minor or major your queries are, we ensure to listen and act on them
+                    right away.</p>
+                <hr class="text-secondary my-4">
+                <div class="reachC" data-aos="fade-up">
+                    <div  class="col">
+                        <div class="reachus">Reach us</div>
+                        <address>3rd Floor, Block 1 (West Wing)<br>
+                            MyHome Hub, Hitech City, Madhapur, Hyderabad,<br> Telangana, India - 500 081.</address>
+                    </div>
+                    <div class="col">
+                        <div class="reachus">Mail us</div>
+                        <p><a href="mailto:info@timingindia.com" class="contact">info@timingindia.com</a></p>
+                    </div>
+                    <div class="col">
+                        <div class="reachus">Talk to us</div>
+                        <div><a href="tel:+914040034446" class="contact">+91 40-40 03 4446 (T)</a></div>
+                        <p><a href="tel:+914040186675" class="contact">+91 40-40 18 6675 (F)</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col py-3">
+                <div class="form-floating mb-4" data-aos="fade-up">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput" class="name">Name*</label>
+                </div>
+                <div class="form-floating mb-4"  data-aos="fade-up">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput" class="name">Phone Number*</label>
+                </div>
+                <div class="form-floating mb-4" data-aos="fade-up">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput" class="name">Email address*</label>
+                </div>
+                <div class="form-floating mb-4" data-aos="fade-up">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 124px"></textarea>
+                    <label for="floatingTextarea2" class="name">Message*</label>
+                </div>
+                <div class="form-floating ">
+                    <button type="button" class="border-0 text-light bg-danger px-5 py-2"
+                        style="border-radius: 3px;">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <iframe style="border:0; width: 100%; height: 400px; border-radius: 15px;"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.238732213745!2d78.38055681428375!3d17.448284105639864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb915ff57eae4f%3A0xc7942541e298ae27!2sTiming%20Technologies%20India%20Private%20Limited!5e0!3m2!1sen!2sin!4v1669111634932!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <!-- Curious about how we work? -->
+    <section>
+        <div id="curious-content"></div>
+    <!-- Curious about how we work? -->
+    
+    <div id="footer-content"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="text/javascript">
+            $("#header-content").load('../header/header.html');
+            $("#footer-content").load('../footer/footer.html');
+            $("#curious-content").load('../curious/curious.html');
+            AOS.init();
+    </script>
+</body>
+
+</html>

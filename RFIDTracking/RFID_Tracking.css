@@ -1,0 +1,490 @@
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Ubuntu', sans-serif;
+    color: #000033 !important;
+    font-weight: 500;
+    font-size: 19px !important;
+    /* margin-right: 15px; */
+
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #D22027 !important;
+    font-weight: 00;
+    font-size: 19px !important;
+    /* margin-right: 15px; */
+
+}
+
+
+
+
+.ai {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    color: #29455E;
+}
+
+.sporting {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    color: #29455E;
+}
+
+.ai-power {
+    background-color: #F3F8FB;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+
+.padding-top {
+    padding-top: 11%;
+}
+
+
+
+.col-1 {
+    width: -1px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.dotImage {
+    position: absolute;
+    width: 35px;
+    top: 10px;
+    left: 5px;
+}
+
+.aiPowerContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    gap: 3%;
+}
+
+.ai_Untitled {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    .aiPowerContainer {
+        display: block;
+    }
+
+    .ai_Untitled {
+        width: 80% !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media (max-width: 767px) {
+    #featureContainer .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    #featureContainer .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+#featureContainer .carousel-inner .carousel-item.active,
+#featureContainer .carousel-inner .carousel-item-next,
+#featureContainer .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+
+    #featureContainer .carousel-inner .carousel-item-end.active,
+    #featureContainer .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    #featureContainer .carousel-inner .carousel-item-start.active,
+    #featureContainer .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+
+    #featureContainer .card img {
+        width: 90%;
+        height: 40vh;
+    }
+
+    #featureContainer .carousel-item {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 767px) {
+    #featureContainer .card img {
+        width: 100%;
+        height: 75vh;
+    }
+
+  
+   
+}
+
+#featureContainer .carousel-inner .carousel-item-end,
+#featureContainer .carousel-inner .carousel-item-start {
+    transform: translateX(0);
+}
+
+#featureContainer .card {
+    border: 0;
+}
+
+#featureContainer .card {
+    position: relative;
+}
+
+#featureContainer .card .card-img-overlays {
+    position: absolute;
+    bottom: 15%;
+    /* left: 10%; */
+}
+
+#featureContainer a {
+    text-decoration: none;
+}
+
+#featureContainer .indicator {
+    /* border: 1px solid rgb(202, 202, 202); */
+    padding: 3px 6px 3px 6px;
+}
+
+/* #featureContainer .indicator:hover {
+    background-color: blue;
+    border: 1px solid blue;
+    transition: 200ms;
+} */
+
+#featureContainer .indicator:hover {
+    color: white;
+    transition: 200ms;
+}
+
+#featureContainer .indicator {
+    color: lightgray;
+}
+
+#featureContainer .float-end {
+    padding: 10px;
+    margin: auto 0px;
+}
+
+.case-stu {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: #1B3954;
+}
+
+.influences {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: #0D1035;
+    padding: 7% 6% 6% 6%;
+}
+
+.border_pix {
+    border: 1px solid #455A64;
+    width: 24% !important;
+}
+
+.read {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    background: #D42027;
+    border: 0px;
+    color: #FFFFFF;
+    padding: 2%;
+}
+
+.card {
+    padding: 7% 6% 6% 6%;
+}
+
+.fa-arrow-right .fa-arrow-left {
+    color: #000000;
+}
+
+/* curious css  */
+.curious {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D42027;
+}
+
+.access {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #757575;
+}
+
+.request {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+
+
+.bottom-screen {
+    background-color: #F4F9FF;
+    border-radius: 75px;
+    margin-top: 17px;
+    margin-right: -8px;
+    padding-bottom: 150px;
+    z-index: 1;
+}
+
+.text_carousel_main {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 52.5px;
+}
+
+.text_carousel {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 52.5px;
+}
+
+.contact-space {
+    padding: 60px 0px 35px 60px !important;
+}
+
+
+i {
+    color: #FFFFFF;
+    font-size: 25px !important;
+    letter-spacing: 30px;
+    line-height: 30px;
+}
+
+.copyright {
+    color: #fff;
+}
+
+.sticky {
+    height: 30px;
+    position: sticky;
+    top: 70px;
+    z-index: 2;
+    background-color: #fff;
+  }
+  @media only screen and (max-width: 768px) {
+    .sticky {
+        display: none;
+    }
+  }
+
+
+.bread-crumb-a {
+    font-family: "Ubuntu", sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #6B6B6B;
+    font-weight: 300;
+
+}
+
+#navBarComponent2:hover {
+    background: #e6e6e6 !important;
+    border-radius: 20px;
+}
+
+#navBarComponent1:hover {
+    background: #e6e6e6 !important;
+    border-radius: 20px;
+}
+
+.dropdown-item:hover {
+    background-color: #e6e6e600 !important;
+    color: #161616 !important;
+    font-weight: 700;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #d22027;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+@media screen and (max-width:600px) {
+   
+
+    .border_pix {
+        border: 1px solid #455a64;
+        width: 100% !important;
+      }
+}
+
+@media only screen and (max-width: 320px){ }
+
+/* >Our quick fix approach to RFID sp */
+
+/* rfid container */
+
+.rfid_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.whiteLine {
+    width: 2px;
+}
+.whiteLine2 {
+    display: none;
+}
+/* rfid container */
+
+.direction {
+    text-align: center;
+  }
+  .direction button {
+    background-color: aliceblue;
+    border: none;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    transition: 0.5;
+  }
+  
+  .item {
+    margin: 10px;
+    width: 300px;
+  }
+  #list {
+    display:flex;
+    width: max-content;
+    
+  }
+  #formList{
+    width: 100%;
+    overflow: auto;
+    margin: 30px auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: both;
+  
+  }
+  #formList::-webkit-scrollbar{
+    display: none;
+  }
+  @media screen  and (max-width:1024px){
+    .item {
+    width: calc(33.3vw-20px);
+    }
+    
+
+  }
+  @media screen  and (max-width:768px){
+    .item {
+    width: calc(50vw-20px);
+    }
+    
+    
+ 
+    .whiteLine {
+        display: none;
+       
+    }
+    .whiteLine2 {
+        display: block;
+        width: 100%;
+        height: 2px;
+    }
+  }
+  @media screen  and (max-width:425px){
+    .item {
+      width: calc(100vw-20px);
+    }
+    
+  
+  }
+  
+  .item .card {
+    height: 390px !important;
+  }
+
+
+@media only screen and (max-width: 768px){
+    .rfid_container{
+        display: block;
+    }
+    
+    
+ }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solutions</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../SolutionsPage/SolutionsPage.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="icon" type="image/x-icon" href="../images/favicon/T_favicon.png">
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+</head>
+
+<body>
+    <div id="header-content"></div>
+    <div class=" container-fluid sticky px-4">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a class="bread-crumb-a" href="#">Solutions</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="container">
+        <div class="main_content">
+            <a href="../e-Governance/e-governance.html" class="text-decoration-none">
+                <div class="firstContainer" data-aos="fade-right">
+                    <div style="width: 33%;">
+                        <img src="../images/e-gov-logo_new.png" alt="" class="solutionIcons image-fluid">
+                    </div>
+                    <div class="e_gov_text">
+                        <p class="ee-gov gov">e-Governance</p>
+                    </div>
+                </div>
+            </a>
+            <a href="../RFICase/RFICase.html" class="text-decoration-none">
+                <div class="secondContainer" data-aos="fade-left">
+                    <div>
+                        <img src="../images/rfi-logo_new.png" alt="" class="solutionIcons image-fluid">
+                    </div>
+                    <div class="e_gov_text">
+                        <p class="ee-gov">Radio Frequency <br>
+                            Identification</p>
+                    </div>
+                </div>
+            </a>
+            <a href="../AiCase/AiCase.html"  class="text-decoration-none">
+                <div class="firstContainer" data-aos="fade-right">
+                    <div>
+                        <img src="../images/Ai-Solutionpage_new.png" alt="" class="solutionIcons image-fluid">
+                    </div>
+                    <div class="e_gov_text">
+                        <p class="ee-gov gov">Artificial <br>Intelligence</p>
+                    </div>
+                </div>
+            </a>
+           
+        </div>
+    </section>
+    <section class="container text-center my-4" data-aos="fade-up">
+        <p class="letsConnetText">Let Timing Technologies help monitor your city with cutting-edge technology.</p>
+        
+        <a href="../ContactPage/ContactPage.html" class="connectLink">Connect with us</a>
+    </section>
+    
+    <div id="curious-content"></div>
+    <div id="footer-content"></div>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+   <script>
+        $("#header-content").load('../header/header.html');
+        $("#footer-content").load('../footer/footer.html');
+        $("#curious-content").load('../curious/curious.html');
+        AOS.init();
+   </script>
+</body>
+
+</html>

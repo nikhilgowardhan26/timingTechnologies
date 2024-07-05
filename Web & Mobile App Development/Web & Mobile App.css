@@ -1,0 +1,219 @@
+
+#navItem-Services {
+    color: #d22027 !important ;
+  }
+/* navbar style */
+.navbar {
+    background: #FFFFFF;
+}
+
+
+
+.ai {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    color: #29455E;
+}
+
+.sporting {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    color: #29455E;
+}
+
+
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.solutions{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 40px;
+    color: #455A64;
+    padding: 2%;
+}
+.made{
+    background-color: #F5F5F5C2;
+    border: 15px solid #FFFFFF;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.and{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+    text-align: center;
+}
+.demands{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: #1B3954;
+}
+.approach{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #1B3954;
+}
+
+
+.case-stu {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: #1B3954;
+}
+
+.influences {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: #0D1035;
+    padding: 7% 6% 6% 6%;
+}
+
+.border_pix {
+    border: 1px solid #455A64;
+    width: 24% !important;
+}
+
+.read {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    background: #D42027;
+    border: 0px;
+    color: #FFFFFF;
+    padding: 2%;
+}
+
+.card {
+    padding: 7% 6% 6% 6%;
+}
+
+.fa-arrow-right .fa-arrow-left {
+    color: #000000;
+}
+
+  .mobileContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 4%;
+    text-align: justify;
+    padding: 4%;
+  }
+.mobileImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.ToolandFtameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.solutionsContainer{
+    display: flex;
+}
+.imagesContainer {
+    display: flex;
+    gap: 2%;
+}
+@media only screen and (min-width: 2000px){
+  
+  
+ }
+@media only screen and (max-width: 2000px){
+    
+   
+    .solutions {
+        font-size: 30px;
+        line-height: 32px;
+    }
+   
+ }
+
+@media only screen and (max-width: 1500px){ 
+
+    .ToolandFtameContainer{
+       justify-content: center;
+       gap: 5%;
+       flex-direction: column;
+    }
+}
+@media only screen and (max-width: 1200px){
+  
+    .solutions {
+        font-size: 28px;
+        line-height: 32px;
+    }
+   
+ }
+@media only screen and (max-width: 1024px){
+  
+    
+    .imagesContainer img {
+        width: 80px;
+    }
+    .solutions {
+        font-size: 27px;
+        line-height: 30px;
+    }
+   
+ }
+
+@media only screen and (max-width: 768px){
+    .mobileContainer{
+        display: block;
+        
+    }
+    .solutionsContainer {
+        display: block;
+    }
+    
+    .imagesContainer img {
+        width: 70px;
+    }
+   
+    .solutions {
+        font-size: 25px;
+        line-height: 25px;
+    }
+   
+ }
+@media only screen and (max-width: 425px){
+   
+    
+ 
+    .imagesContainer img {
+        width: 60px;
+    }
+  
+    .solutions {
+        font-size: 23px;
+        line-height: 20px;
+    }
+   
+ }

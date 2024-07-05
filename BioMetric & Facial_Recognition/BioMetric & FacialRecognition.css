@@ -1,0 +1,437 @@
+
+#navItem-Services {
+    color: #d22027 !important ;
+  }
+
+.navbar {
+    background: #FFFFFF;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Ubuntu', sans-serif;
+    color: #000033 !important;
+    font-weight: 500;
+    font-size: 19px !important;
+    /* margin-right: 15px; */
+
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #D22027 !important;
+    font-weight: 00;
+    font-size: 19px !important;
+    /* margin-right: 15px; */
+
+}
+
+
+
+
+.bio-s{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #455A64;
+}
+.capture{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #455A64;
+}
+.business{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    color: #0D1035;
+}
+.AI-based {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 30px;
+    color: #D22027;
+}
+
+
+
+.chip-time {
+    font-family: 'Ubuntu', sans-serif;
+    color: #79ACD9;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+   
+}
+.unique{
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 51px;
+   
+}
+
+
+
+.col-1{
+   width: -1px;
+}
+
+.case-stu {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: #1B3954;
+}
+
+.influences {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: #0D1035;
+    padding: 7% 6% 6% 6%;
+}
+
+.border_pix {
+    border: 1px solid #455A64;
+    width: 24% !important;
+}
+
+.read {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    background: #D42027;
+    border: 0px;
+    color: #FFFFFF;
+    padding: 2%;
+}
+
+.card {
+    padding: 7% 6% 6% 6%;
+}
+
+.fa-arrow-right .fa-arrow-left {
+    color: #000000;
+}
+
+/* curious css  */
+.curious {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D42027;
+}
+
+.access {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #757575;
+}
+.request{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+.main-top {
+   margin-top: 100px;
+    background-color: #FFFFFF;
+}
+
+
+
+.bottom-screen {
+    background-color: #F4F9FF;
+    border-radius: 75px;
+    margin-top: 17px;
+    margin-right: -8px;
+    padding-bottom: 150px;
+    z-index: 1;
+}
+
+.text_carousel_main {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 52.5px;
+}
+
+.text_carousel {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 52.5px;
+}
+
+.contact-space {
+    padding: 60px 0px 35px 60px !important;
+}
+
+/* footer css */
+
+
+.footer {
+    background-color: #000033;
+    padding: 15px;
+
+}
+
+.icons {
+    color: #FFFFFF;
+    font-size: 25px !important;
+    letter-spacing: 30px;
+    line-height: 30px;
+}
+
+.copyright {
+    color: #fff;
+}
+.sticky {
+    height: 30px;
+    position: sticky;
+    top: 70px;
+    z-index: 2;
+    background-color: #fff;
+  }
+  @media only screen and (max-width: 768px) {
+    .sticky {
+        display: none;
+    }
+  }
+
+  .bread-crumb-a {
+    font-family: "Ubuntu", sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:  #6B6B6B;
+    font-weight: 300;
+    
+  }
+  #navBarComponent2:hover {
+    background: #e6e6e6 !important;
+    border-radius: 20px;
+  }
+  #navBarComponent1:hover {
+    background: #e6e6e6 !important;
+    border-radius: 20px;
+  }
+  .dropdown-item:hover {
+    background-color: #e6e6e600 !important;
+    color: #161616 !important;
+    font-weight: 700;
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #d22027; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff; 
+  }
+  
+  
+
+
+.ai_Untitled {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width:600px) {
+    
+    .AI-based {
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 30px;
+        color: #D22027;
+        margin-top: 4%;
+    }
+    .business {
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+        color: #0D1035;
+    }
+    .chip-time {
+        font-family: 'Ubuntu', sans-serif;
+        color: #79ACD9;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        padding: 4%;
+    }
+    .unique {
+        font-family: 'Ubuntu', sans-serif;
+        color: #FFFFFF;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 38px;
+        padding: 3%;
+    }
+    .border_pix {
+        border: 1px solid #455a64;
+        width: 100% !important;
+      }
+    
+}
+
+
+  @media only screen and (min-width: 2000px){ 
+   
+    .business, .chip-time, .for{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .capture, .unique{
+        font-size: 20px ;
+        line-height: 30px;
+    } 
+ 
+  }
+  @media only screen and (max-width: 2000px){ 
+   
+     .business, .chip-time, .for{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .capture, .unique{
+        font-size: 20px ;
+        line-height: 30px;
+    } 
+ 
+  }
+  @media only screen and (max-width: 1800px){
+   
+  
+    .business, .chip-time, .for{
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .capture, .unique{
+        font-size: 19px ;
+        line-height: 27px;
+    } 
+   }
+  @media only screen and (max-width: 1500px){ 
+ 
+    .business{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .capture{
+        font-size: 18px ;
+        line-height: 25px;
+    } 
+  }
+  @media only screen and (max-width: 1200px){ 
+    
+    .business, .chip-time, .for{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .capture, .unique {
+        font-size: 17px ;
+        line-height: 24px;
+    } 
+ 
+  }
+  @media only screen and (max-width: 1024px){
+   
+   .business, .chip-time, .for{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .capture, .unique{
+        font-size: 16px ;
+        line-height: 22px;
+    } 
+   }
+  @media only screen and (max-width: 800px){ }
+  @media only screen and (max-width: 768px){ 
+   
+   
+   
+    .business, .chip-time{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .capture, .unique{
+        font-size: 15px ;
+        line-height: 20px;
+    } 
+  }
+  @media only screen and (max-width: 425px){
+    .main-top {
+        margin-top: 80px;
+    }
+    
+ 
+     .business, .chip-time{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .capture, .unique{
+        font-size: 14px ;
+        line-height: 20px;
+    } 
+   }
+
+  .quick_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+  }
+  .whiteLine {
+    width: 3px;
+    height: 100%;
+  }
+  .whiteLine2 {
+    display: none;
+  }
+  
+  .trackContainer {
+    display: flex
+  }
+
+  @media only screen and (max-width: 768px){ 
+    .quick_container, .trackContainer {
+        display: block;
+    }
+    .whiteLine {
+       display: none
+      }
+    .whiteLine2 {
+        display: block;
+        width: 100%;
+        height: 3px;
+    }
+  }

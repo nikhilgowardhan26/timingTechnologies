@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+html {
+    /* background-image: url("https://i.pinimg.com/1200x/d7/38/de/d738de0912e1ea6a525442f0c6301f72.jpg"); */
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+#navItem-Services {
+    color: #d22027 !important ;
+  }
+/* .navbar-light .navbar-nav .nav-link {
+    font-family: 'Ubuntu', sans-serif;
+    color: #000033 !important;
+    font-weight: 500;
+    font-size: 19px !important;
+    /* margin-right: 15px; */
+
+
+
+/* .navbar-light .navbar-nav .nav-link:focus {
+    color: #D22027 !important;
+    font-weight: 00;
+    font-size: 19px !important;
+   
+
+} */ 
+
+.ai {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    color: #29455E;
+}
+
+.sporting {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    color: #29455E;
+}
+
+.ai-power {
+    background-color: #F3F8FB;
+    position: relative;
+    border-radius: 20px;
+}
+
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.testText{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 50px;
+    color: #29455E;
+}
+.time{
+    box-shadow: 0px 10px 25px 0px #00003314;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.product{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: #29455E;
+    padding: 3%;
+    transition: all 0.5 ease-in-out !important; 
+}
+.each{
+    /* margin: 5%; */
+}
+.main_space{
+    margin: 5%;
+}
+.and{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.case-stu {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: #1B3954;
+}
+
+.influences {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: #0D1035;
+    padding: 7% 6% 6% 6%;
+}
+
+.border_pix {
+    border: 1px solid #455A64;
+    width: 24% !important;
+}
+
+.read {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    background: #D42027;
+    border: 0px;
+    color: #FFFFFF;
+    padding: 2%;
+}
+
+.card {
+    padding: 7% 6% 6% 6%;
+}
+
+.fa-arrow-right .fa-arrow-left {
+    color: #000000;
+}
+.main-top {
+    margin-top: 6%;
+  }
+
+/* footer css */
+
+.sticky {
+    height: 30px;
+    position: sticky;
+    top: 70px;
+    z-index: 2;
+    background-color: #fff;
+  }
+  @media only screen and (max-width: 768px) {
+    .sticky {
+        display: none;
+    }
+  }
+.bread-crumb-a {
+    font-family: "Ubuntu", sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:  #6B6B6B;
+    font-weight: 300;
+    
+}
+#navBarComponent2:hover {
+    background: #e6e6e6 !important;
+    border-radius: 20px;
+  }
+  #navBarComponent1:hover {
+    background: #e6e6e6 !important;
+    border-radius: 20px;
+  }
+  .dropdown-item:hover {
+    background-color: #e6e6e600 !important;
+    color: #161616 !important;
+    font-weight: 700;
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #d22027; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff; 
+  }
+
+  /* Finer Quality Assurance for your products */
+
+@media only screen and (min-width: 2000px){ 
+    
+    .introduction{
+        font-size:32px ;
+        line-height: 55px;
+    }
+}
+@media only screen and (max-width: 2000px){ 
+   
+    .introduction{
+        font-size:32px ;
+        line-height: 55px;
+    }
+}
+@media only screen and (max-width: 1800px){
+    .introduction{
+        font-size:40px ;
+        line-height: 55px;
+    }
+ }
+@media only screen and (max-width: 1500px){
+    .introduction{
+        font-size:38px ;
+        line-height: 55px;
+    }
+ }
+@media only screen and (max-width: 1200px){
+    .introduction{
+        font-size:30px ;
+        line-height: 55px;
+    }
+ }
+@media only screen and (max-width: 1024px){
+    .main-top {
+        margin-top: 8%;
+      }
+    
+    .introduction{
+        font-size:23px ;
+        line-height: 22px;
+    }
+ }
+@media only screen and (max-width: 800px){ 
+    
+    
+}
+
+@media only screen and (max-width: 768px){
+    .main-top{
+        margin-top: 70px;
+    }
+    .introduction{
+        font-size:23px ;
+        line-height: 22px;
+    }
+ }
+@media only screen and (max-width: 425px){ 
+    .main-top{
+        margin-top: 100px;
+    }
+    .introduction{
+        font-size:18px ;
+        line-height: 22px;
+    }
+}
+@media only screen and (max-width: 320px){
+    
+ }
+
+  /* Finer Quality Assurance for your products */
+  /* QA as a Service provides */
+  .each {
+    display: flex;
+    gap: 5%;
+    margin: 2% auto;
+    transition: all 0.5 ease-in-out !important; 
+  }
+.group_82 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+}
+.QaContainer{
+    display: flex;
+    border-radius: 20px;
+    flex-direction: row-reverse;
+    padding: 3%;
+    gap: 3%;
+}
+
+.Wearables {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 40px;
+    color: #455A64;
+    transition: all 0.5 ease;
+    
+}
+
+
+.athlete {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #0D1035;
+    transition: all 0.5 ease;
+    transition: all 0.5 ease-in-out !important; 
+    
+}
+.approveImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (min-width: 2000px){
+    .testText{
+        font-size: 47px;
+    }
+.Wearables {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 40px;
+    color: #455A64;
+    transition: all 0.5 ease;
+}
+.athlete {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #0D1035;
+    transition: all 0.5 ease;
+}
+ }
+@media only screen and (max-width: 2000px){
+    .testText{
+        font-size: 47px;
+    }
+ }
+@media only screen and (max-width: 1800px){
+    .Wearables{
+        font-size: 23px;
+        line-height: 33px;
+    }
+    .athlete{
+        font-size: 23px;
+        line-height: 33px;
+    }
+    .testText{
+        font-size: 35px;
+    }
+ }
+@media only screen and (max-width: 1500px){ 
+    .testText{
+        font-size: 30px;
+    }
+    .Wearables{
+        font-size: 20px;
+        line-height: 33px;
+    }
+    .athlete{
+        font-size: 20px;
+        line-height: 33px;
+    }
+}
+@media only screen and (max-width: 1200px){ 
+    .testText{
+        font-size: 28px;
+    }
+    .Wearables{
+        font-size: 18px;
+        line-height: 33px;
+    }
+    .athlete{
+        font-size: 18px;
+        line-height: 33px;
+    }
+ 
+}
+@media only screen and (max-width: 1024px){ 
+    .testText{
+        font-size: 28px;
+    }
+    .Wearables, .athlete{
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .product {
+        font-size: 19px !important;
+        line-height: 26px !important;
+    }
+}
+@media only screen and (max-width: 800px){ }
+@media only screen and (max-width: 768px){
+    .testText{
+        font-size: 25px;
+    }
+    .QaContainer{
+       display: block;
+    }
+    
+    .athlete{
+        font-size: 16px;
+        line-height: 20px;
+        text-align: justify;
+    }
+    .Wearables{
+        font-size: 16px;
+        line-height: 20px;
+        text-align: justify;
+    }
+    .each {
+        display: block;
+    }
+    .product {
+        font-size: 18px !important;
+        line-height: 20px !important;
+    }
+ }
+@media only screen and (max-width: 425px){ 
+
+    .testText{
+        font-size: 20px;
+    }
+    .athlete{
+        font-size: 15px;
+        line-height: 20px;
+        text-align: justify;
+    }
+    .Wearables{
+        font-size: 15px;
+        line-height: 20px;
+        text-align: justify;
+    }
+    .product {
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+}
+@media only screen and (max-width: 320px){ }
+
+ /* QA as a Service provides */
+
+ .Mobile{
+    background-color:#DFEEFF ;
+    border-radius: 15px;
+    display: flex;
+    font-weight: 700;
+    color: #455A64 !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+}
+            
+ .mob_web_Container{
+    display: flex;
+    gap: 5%;
+
+ }
+ 

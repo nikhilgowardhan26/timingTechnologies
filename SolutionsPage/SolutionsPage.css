@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Ubuntu";
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+#navItem-solutions {
+  color: #d22027;
+}
+.ee-gov,
+.rfi,
+.ai {
+  font-size: 70px;
+  line-height: 87px;
+  color: #334452;
+  font-weight: 700;
+}
+
+.rfi {
+  border-radius: 20px 80px 0px 160px;
+}
+
+
+.radio {
+  margin-top: 20%;
+}
+
+.artify {
+  margin-top: 22%;
+}
+
+.rfi-logo {
+  margin-left: 13%;
+}
+
+.cec {
+  background-color: #f7cfc6;
+  box-shadow: 0px 10px 25px 0px #00003314;
+  border-radius: 20px;
+  margin-left: 22%;
+  padding: 5%;
+}
+
+.cec_p {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  color: #334452;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d22027;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+.main_content {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.firstContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #b8b3b3;
+  box-shadow: 0px 4px 5px 1px #b8b3b3;
+  padding: 2% 3%;
+  border-top-left-radius: 150px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 60px;
+  margin: 4%;
+}
+.secondContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  border: 1px solid #b8b3b3;
+  padding: 2% 3%;
+  box-shadow: 0px 4px 5px 1px #b8b3b3;
+  border-bottom-left-radius: 150px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 60px;
+  margin: 4%;
+  text-align: left !important;
+}
+.solutionIcons {
+  max-width: 300px;
+  transition: all 0.5 ease;
+}
+.gov {
+  text-align: right;
+}
+.e_gov_text {
+  width: 77%;
+}
+
+.letsConnetText {
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: "ubuntu" !important;
+  color: #000000;
+}
+.connectLink {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  font-family: "ubuntu" !important;
+  /* color: #000000; */
+  text-decoration: none;
+  color: #d22027;
+  text-align: center;
+}
+
+@media only screen and (min-width: 2000px) {
+  .solutionIcons {
+    max-width: 300px;
+  }
+  .firstContainer {
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 60px;
+  }
+  .secondContainer {
+    border-bottom-left-radius: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 60px;
+  }
+  
+  
+}
+@media only screen and (max-width: 2000px) {
+  .solutionIcons {
+    max-width: 300px;
+  }
+  .firstContainer {
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 60px;
+  }
+  .secondContainer {
+    border-bottom-left-radius: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 60px;
+  }
+  
+}
+@media only screen and (max-width: 1800px) {
+  .solutionIcons {
+    max-width: 270px;
+  }
+  .firstContainer {
+    border-top-left-radius: 140px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 60px;
+  }
+  .secondContainer {
+    border-bottom-left-radius: 140px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 60px;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .main_content {
+    margin-top: 100px;
+  }
+  .solutionIcons {
+    max-width: 250px;
+  }
+  .firstContainer {
+    border-top-left-radius: 130px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 60px;
+  }
+  .secondContainer {
+    border-bottom-left-radius: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 60px;
+  }
+  
+}
+@media only screen and (max-width: 1200px) {
+ 
+  .solutionIcons {
+    max-width: 200px;
+  }
+  .firstContainer {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 40px;
+  }
+  .ee-gov {
+    font-size: 45px;
+    line-height: 50px;
+    margin: 0;
+  }
+  .secondContainer {
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 40px;
+  }
+ 
+}
+
+@media only screen and (max-width: 1024px) {
+ 
+  .main_content {
+    margin-top: 80px;
+  }
+  .solutionIcons {
+    max-width: 150px;
+  }
+  .firstContainer {
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 40px;
+  }
+  .secondContainer {
+    border-bottom-left-radius: 70px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 40px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+ 
+}
+@media only screen and (max-width: 800px) {
+  .solutionIcons {
+    max-width: 120px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main_content {
+    margin-top: 70px;
+  }
+  .solutionIcons {
+    max-width: 100px;
+  }
+  .firstContainer {
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+  }
+  .ee-gov {
+    font-size: 27px;
+    line-height: 30px;
+    margin: 0;
+  }
+  .secondContainer {
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+  }
+  .letsConnetText,
+  .connectLink {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  
+  .solutionIcons {
+    max-width: 70px;
+  }
+  .firstContainer {
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+  }
+  .secondContainer {
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+  }
+  .ee-gov {
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0;
+  }
+ 
+}
+.bread-crumb-a {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #6b6b6b;
+  font-weight: 300;
+}
+.sticky {
+  height: 30px;
+  position: sticky;
+  top: 70px;
+  z-index: 2;
+  background-color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .sticky {
+    display: none;
+  }
+}

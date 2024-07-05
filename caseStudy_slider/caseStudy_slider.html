@@ -1,0 +1,211 @@
+<head>
+  <!-- <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"> -->
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.direction {
+  text-align: center;
+}
+.p-18 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.ubuntu {
+  font-family: "Ubuntu", sans-serif;
+}
+.direction button {
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  transition: 0.5;
+}
+
+.item {
+  margin: 10px;
+  width: 300px;
+ 
+}
+#list {
+  display: flex;
+  width: max-content;
+}
+#formList {
+  width: 100%;
+  overflow: auto;
+  margin: 20px auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: both;
+}
+#formList::-webkit-scrollbar {
+  display: none;
+}
+.item .card {
+  height: 390px !important;
+ 
+}
+.direction {
+  text-align: center;
+}
+.direction button {
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  transition: 0.5;
+}
+.card-body {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+}
+.card {
+  padding:10px;
+}
+@media screen and (max-width: 1024px) {
+  .item {
+    width: calc(33.3vw-20px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .item {
+    width: calc(50vw-20px);
+  }
+}
+@media screen and (max-width: 425px) {
+  .item {
+    width: calc(100vw-20px);
+  }
+}
+
+
+  </style>
+</head>
+
+<body>
+
+
+  <section class="container mt-3">
+    <div  class="d-flex justify-content-between align-items-center">
+      <div>
+        <h2 style="color: #1B3954; font-weight: 600; margin-bottom: 0;" class="ubuntu" id="title-CaseStudy"> Case Studies</h2>
+      </div>
+      <div class="direction" >
+        <button id="prev"><img src="../images/arrow-left.png" alt=""></button>
+        <button id="next"><img src="../images/arrow-right.png" alt=""></button>
+      </div>
+    </div>
+    <div id="formList">
+
+      <div id="list">
+
+        <div class="item">
+          <div class="card" style="width: 100%;">
+            <img src="../images/caseStudyImages/Rectangle 119.png" class="card-img-top" alt="">
+            <div class="card-body ">
+              <p class="p-18">RFID influences the realm of Active sports</p>
+              <div>
+                <a href="../RFID-CaseStudy/RFID_IRAS_File.html" class="btn btn-danger w-100">Read the Full Story</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card" style="width: 100%;">
+            <img src="../images/caseStudyImages/Rectangle 121.png" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <p class="p-18">AI: The game changer in the sporting world</p>
+              <div >
+                <a href="../AI-CaseStudy/AICaseStudy.html" class="btn btn-danger w-100">Read the Full Story</a>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 100%;">
+            <img src="../images/caseStudyImages/Rectangle 123.png" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <p class="p-18">Measuring height in Endurance tests by Computer vision</p>
+              <div >
+                <a href="../PETHeightScale-CaseStudy/PETHeightScaleCaseStudy.html" class="btn btn-danger w-100">Read the
+                  Full Story</a>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card" style="width: 100%;">
+            <img src="../images/caseStudyImages/Rectangle 125.png" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <p class="p-18">Leveraging AI for Accurate and Quick Candidate Bib Recognition in Endurance Tests</p>
+              <div>
+                <a href="../BID-NumberCaseStudy/BIDNumberCaseStudy.html" class="btn btn-danger w-100">Read the Full
+                  Story</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card" style="width: 100%;">
+            <img src="../images/caseStudyImages/Rectangle 119.png" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <p class="p-18">Enhancing Signature Authentication with Image Processing Techniques</p>
+              <div >
+                <a href="../Addressing-CaseStudy/AddressingCaseStudy.html" class="btn btn-danger w-100">Read the Full
+                  Story</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+      
+      </div>
+    </div>
+  </section>
+
+  <script>
+    
+   
+      document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("next").onclick = function () {
+    console.log("next button clicked");
+    const item = document.querySelector(".item");
+    if (item) {
+      const widthItem = item.offsetWidth;
+      const formList = document.getElementById("formList");
+      if (formList) {
+        formList.scrollLeft += widthItem;
+      }
+    }
+  };
+
+  document.getElementById("prev").onclick = function () {
+    console.log("prev button clicked");
+    const item = document.querySelector(".item");
+    if (item) {
+      const widthItem = item.offsetWidth;
+      const formList = document.getElementById("formList");
+      if (formList) {
+        formList.scrollLeft -= widthItem;
+      }
+    }
+  };
+});
+    
+
+  </script>
+
+
+</body>

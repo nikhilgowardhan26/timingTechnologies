@@ -1,0 +1,44 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Roboto&family=Ubuntu:wght@400;500&display=swap');
+@import url('../node_modules/bootstrap-icons/font/bootstrap-icons.css');
+
+html {
+    /* background-image: url("https://i.pinimg.com/1200x/d7/38/de/d738de0912e1ea6a525442f0c6301f72.jpg"); */
+}
+
+body {
+    font-family: "Ubuntu";
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* navbar style */
+.navbar {
+    background: #FFFFFF;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000033 !important;
+    font-weight: 500;
+    font-size: 19px !important;
+    margin-right: 15px;
+
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #D22027 !important;
+    font-weight: 00;
+    font-size: 18px !important;
+    margin-right: 15px;
+
+}
+
+.activeTab {
+    color: #D22027;
+    
+}
+

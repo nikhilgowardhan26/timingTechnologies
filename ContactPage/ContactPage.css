@@ -1,0 +1,221 @@
+
+.here {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  color: #d22027;
+}
+.how {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  /* line-height: 28px; */
+  font-weight: 500;
+  text-align: left;
+  /* line-height: 35px; */
+}
+.reachus {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
+  color: #d22027;
+}
+.name {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #29455e;
+}
+.form-floating > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 0.5rem 0.75rem !important;
+  pointer-events: none;
+  border: 1px solid transparent;
+  transform-origin: 0 0;
+  transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+.bg-danger {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+
+
+
+/* footer css */
+
+.icons {
+  color: #ffffff;
+  font-size: 25px !important;
+  letter-spacing: 30px;
+  line-height: 30px;
+}
+.contact {
+  color: #000033;
+  text-decoration: none;
+}
+.copyright {
+  color: #fff;
+}
+#navBarComponent2:hover {
+  background: #e6e6e6 !important;
+  border-radius: 20px;
+}
+#navBarComponent1:hover {
+  background: #e6e6e6 !important;
+  border-radius: 20px;
+}
+.dropdown-item:hover {
+  background-color: #e6e6e600 !important;
+  color: #161616 !important;
+  font-weight: 700;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .weAreHeading {
+    font-size: 25px;
+  }
+  .trained {
+    font-size: 20px;
+    &span {
+      font-size: 18px !important;
+      font-weight: 300;
+    }
+  }
+  .runningTime {
+    margin: 20px 0;
+  }
+  .trained-h1 {
+    font-size: 20px;
+    line-height: 23px;
+    color: #000033 !important;
+    font-family: "ubuntu";
+  }
+  .Tpara_01 {
+    display: none;
+  }
+  .talented {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .Tpara_02 {
+    font-size: 17px;
+    text-align: center;
+    font-family: "ubuntu";
+    color: #000033;
+  }
+  .contact-space {
+    padding: 35px;
+  }
+
+  .Tpara_02 {
+    display: block;
+  }
+  .requestBtn {
+    width: 180px !important;
+    padding: 20px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .curious {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .access {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+  .requestBtn {
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .requestBtn {
+    width: 160px !important;
+    padding: 15px !important;
+  }
+  .contact-space {
+    padding: 30px;
+  }
+  .curious {
+    font-size: 25px !important;
+    line-height: 25px;
+  }
+  .access {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 17px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .curious {
+    font-size: 25px !important;
+    line-height: 25px;
+  }
+  .access {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 17px;
+  }
+  .contact-space {
+    padding: 30px;
+  }
+  .requestBtn {
+    width: 150px !important;
+    padding: 10px !important;
+  }
+}
+
+.weAreHere {
+  display: flex;
+  gap: 5%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .weAreHere {
+    display: block;
+  }
+  .reachC {
+    display: flex;
+    gap: 5%;
+  }
+  .main-space {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .reachC {
+    display: block;
+  }
+  .here {
+    font-size: 30px;
+    
+    text-align: center;
+  }
+  
+  .main-space {
+    margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .here {
+    font-size: 25px;
+    text-align: center;
+  }
+  .main-space {
+    margin-top: 80px;
+  }
+  
+}
+

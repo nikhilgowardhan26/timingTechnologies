@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+html {
+    /* background-image: url("https://i.pinimg.com/1200x/d7/38/de/d738de0912e1ea6a525442f0c6301f72.jpg"); */
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+#navItem-Services {
+  color: #d22027 !important ;
+}
+/* navbar style */
+.navbar {
+    background: #FFFFFF;
+}
+
+/* #navbarNav {
+    margin-right: 70px;
+} */
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Ubuntu', sans-serif;
+    color: #000033 !important;
+    font-weight: 500;
+    font-size: 19px !important;
+    /* margin-right: 15px; */
+
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #D22027 !important;
+    font-weight: 00;
+    font-size: 19px !important;
+    /* margin-right: 15px; */
+
+}
+
+
+
+.secondary {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 50px;
+    color: #6B6B6B;
+    background-color: #F5F5F5;
+}
+
+.ai {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    color: #29455E;
+}
+
+.sporting {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    color: #29455E;
+}
+
+.ai-power {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #F3F8FB;
+    border-radius: 20px;
+  position: relative;
+
+}
+
+.athlete {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #0D1035;
+    text-align: justify;
+}
+.padding-top{
+    padding-top: 11%;
+  }
+
+  .Wearables {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 40px;
+    color: #455A64;
+    text-align: justify;
+   
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.Right{
+border-radius: 20px;
+background-color: #455A64;
+border: 10px solid #FFFFFF;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media (max-width: 767px) {
+    #featureContainer .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    #featureContainer .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+#featureContainer .carousel-inner .carousel-item.active,
+#featureContainer .carousel-inner .carousel-item-next,
+#featureContainer .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+
+    #featureContainer .carousel-inner .carousel-item-end.active,
+    #featureContainer .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    #featureContainer .carousel-inner .carousel-item-start.active,
+    #featureContainer .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+
+    #featureContainer .card img {
+        width: 90%;
+        height: 40vh;
+    }
+
+    #featureContainer .carousel-item {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 767px) {
+    #featureContainer .card img {
+        width: 100%;
+        height: 75vh;
+    }
+}
+
+#featureContainer .carousel-inner .carousel-item-end,
+#featureContainer .carousel-inner .carousel-item-start {
+    transform: translateX(0);
+}
+
+#featureContainer .card {
+    border: 0;
+}
+
+#featureContainer .card {
+    position: relative;
+}
+
+#featureContainer .card .card-img-overlays {
+    position: absolute;
+    bottom: 15%;
+    /* left: 10%; */
+}
+
+#featureContainer a {
+    text-decoration: none;
+}
+
+#featureContainer .indicator {
+    /* border: 1px solid rgb(202, 202, 202); */
+    padding: 3px 6px 3px 6px;
+}
+
+/* #featureContainer .indicator:hover {
+    background-color: blue;
+    border: 1px solid blue;
+    transition: 200ms;
+} */
+
+#featureContainer .indicator:hover {
+    color: white;
+    transition: 200ms;
+}
+
+#featureContainer .indicator {
+    color: lightgray;
+}
+
+#featureContainer .float-end {
+    padding: 10px;
+    margin: auto 0px;
+}
+
+.case-stu {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: #1B3954;
+}
+
+.influences {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: #0D1035;
+    padding: 7% 6% 6% 6%;
+}
+
+.border_pix {
+    border: 1px solid #455A64;
+    width: 24% !important;
+}
+
+.read {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    background: #D42027;
+    border: 0px;
+    color: #FFFFFF;
+    padding: 2%;
+}
+
+.card {
+    padding: 7% 6% 6% 6%;
+}
+
+.fa-arrow-right .fa-arrow-left {
+    color: #000000;
+}
+
+/* curious css  */
+.curious {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D42027;
+}
+
+.access {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #757575;
+}
+.request{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+.main-top {
+    margin-top:100px ;
+}
+
+.rectangle {
+    left: 0;
+    margin-left: 20px;
+}
+
+.bottom-screen {
+    background-color: #F4F9FF;
+    border-radius: 75px;
+    margin-top: 17px;
+    margin-right: -8px;
+    padding-bottom: 150px;
+    z-index: 1;
+}
+
+.text_carousel_main {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 52.5px;
+}
+
+.text_carousel {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 52.5px;
+}
+
+.contact-space {
+    padding: 60px 0px 35px 60px !important;
+}
+
+/* footer css */
+
+
+.footer {
+    background-color: #000033;
+    padding: 15px;
+
+}
+
+.address {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.company {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D22027;
+}
+
+.about {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.icons {
+    color: #FFFFFF;
+    font-size: 25px !important;
+    letter-spacing: 30px;
+    line-height: 30px;
+}
+
+.copyright {
+    color: #fff;
+}
+.sticky {
+  height: 30px;
+  position: sticky;
+  top: 70px;
+  z-index: 2;
+  background-color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .sticky {
+      display: none;
+  }
+}
+  .bread-crumb-a {
+    font-family: "Ubuntu", sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:  #6B6B6B;
+    font-weight: 300;
+  }
+  #navBarComponent2:hover {
+    background: #e6e6e6 !important;
+    border-radius: 20px;
+  }
+  #navBarComponent1:hover {
+    background: #e6e6e6 !important;
+    border-radius: 20px;
+  }
+  .dropdown-item:hover {
+    background-color: #e6e6e600 !important;
+    color: #161616 !important;
+    font-weight: 700;
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #d22027; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff; 
+  }
+  
+  .dotImage {
+    position: absolute;
+    width: 35px;
+    top: 15px;
+    left: 10px;
+  }
+  
+  .aiPowerContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    gap: 3%;
+  }
+  
+  .ai_Untitled {
+    width: 100%;
+    
+  }
+  @media only screen and (max-width: 1024px) {
+    .aiPowerContainer {
+      display: block;
+    }
+  
+    
+  }
+  @media screen and (max-width:600px) {
+    .border_pix {
+        border: 1px solid #455a64;
+        width: 100% !important;
+      }
+      .athlete {
+        font-family: 'Ubuntu';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #0D1035;
+       
+    }
+    .Wearables {
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #455A64;
+        
+    }
+    .AI-based {
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 30px;
+        color: #D22027;
+        margin-top: 4%;
+    }
+    .business {
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+        color: #0D1035;
+    }
+    .chip-time {
+        font-family: 'Ubuntu', sans-serif;
+        color: #79ACD9;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        padding: 4%;
+    }
+    .unique {
+        font-family: 'Ubuntu', sans-serif;
+        color: #FFFFFF;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 38px;
+        padding: 3%;
+    }
+   
+   
+  }
+
+
+  .direction {
+    text-align: center;
+  }
+  .direction button {
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    transition: 0.5;
+  }
+  
+  .item {
+    margin: 10px;
+    width: 300px;
+  }
+  #list {
+    display:flex;
+    width: max-content;
+    
+  }
+  #formList{
+    width: 100%;
+    overflow: auto;
+    margin: 30px auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: both;
+  
+  }
+  #formList::-webkit-scrollbar{
+    display: none;
+  }
+  @media screen  and (max-width:1024px){
+    .item {
+    width: calc(33.3vw-20px);
+    }
+  }
+  @media screen  and (max-width:768px){
+    .item {
+    width: calc(50vw-20px);
+    }
+  }
+  @media screen  and (max-width:425px){
+    .item {
+      width: calc(100vw-20px);
+    }
+  }
+  
+  .item .card {
+    height: 390px !important;
+  }
+  .aidContainer {
+    display: flex;
+    gap: 4%;
+    
+}
+.aid {
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.aid{
+    font-family: 'Ubuntu';
+    background-color: #455A64;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 39px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5%;
+    
+}
+
+@media only screen and (max-width: 768px){ 
+    .aidContainer{
+        display: block;
+    }
+}
+
+
+@media only screen and (min-width: 2000px){
+   
+        .athlete{
+            font-size: 25px;
+            line-height: 40px;
+          }
+          .aid{
+            font-size: 22px;
+            line-height: 30px;
+          } 
+          .Wearables {
+            font-size: 23px;
+            line-height: 35px;
+          }
+ }
+@media only screen and (max-width: 2000px){
+   
+        .athlete {
+            font-size: 25px;
+            line-height: 40px;
+          }
+          .aid{
+            font-size: 22px;
+            line-height: 30px;
+          } 
+          .Wearables {
+            font-size: 23px;
+            line-height: 35px;
+          }
+ }
+@media only screen and (max-width: 1800px){ 
+    .athlete{
+        font-size: 22px;
+        line-height: 30px;
+      }
+      .Wearables {
+        font-size: 20px;
+        line-height: 32px;
+      }
+}
+@media only screen and (max-width: 1500px){
+    
+        .athlete{
+            font-size: 20px;
+            line-height: 30px;
+          }
+          .Wearables {
+            font-size: 19px;
+            line-height: 30px;
+          }
+ }
+@media only screen and (max-width: 1200px){
+   
+        .dotImage{
+            width: 20px;
+            left: 5px;
+          }
+ }
+@media only screen and (max-width: 1024px){ 
+   
+        .aid {font-size: 18px;
+        line-height: 26px;}
+
+        .dotImage{
+            width: 20px;
+            left: 5px;
+          }
+          .athlete{
+            font-size: 19px !important;
+            line-height: 28px !important;
+          }
+          .Wearables{
+            font-size: 19px !important;
+            line-height: 28px !important;
+          }
+}
+@media only screen and (max-width: 800px){ }
+@media only screen and (max-width: 768px){ 
+   
+    .dotImage{
+        width: 20px;
+        left: 5px;
+      }
+      .athlete, .aid{
+        font-size: 17px !important;
+        line-height: 26px !important;
+      }
+      .aid{
+        height: 100px;
+      }
+      .Wearables{
+        font-size: 17px !important;
+        line-height: 26px !important;
+      }
+      
+}
+@media only screen and (max-width: 425px){ 
+    
+    .dotImage{
+        width: 10px;
+        left: 5px;
+      }
+      .athlete, .aid{
+        font-size: 14px !important;
+        line-height: 20px !important;
+      }
+      .aid{
+        height: 100px;
+      }
+      .Wearables{
+        font-size: 14px !important;
+        line-height: 20px !important;
+      }
+}
+@media only screen and (max-width: 320px){ }
+

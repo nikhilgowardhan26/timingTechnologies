@@ -1,0 +1,203 @@
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Ubuntu", sans-serif;
+  color: #000033 !important;
+  font-weight: 500;
+  font-size: 19px !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #d22027 !important;
+  font-weight: 00;
+  font-size: 19px !important;
+}
+
+.secondary {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 50px;
+  color: #6b6b6b;
+  background-color: #f5f5f5;
+}
+
+.ai {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  color: #29455e;
+}
+
+.sporting {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 50px;
+  color: #29455e;
+}
+
+.services {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 50px;
+  color: #d22027;
+}
+
+.support {
+  margin-top: 5%;
+}
+
+.maintain {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 25px;
+  color: #d42027;
+}
+.Hardware {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #455a64;
+}
+.ticket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 10px 25px 0px #00003314;
+  border-radius: 20px;
+}
+
+.case-stu {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 35px;
+  color: #1b3954;
+}
+
+.influences {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 25px;
+  color: #0d1035;
+  padding: 7% 6% 6% 6%;
+}
+
+.border_pix {
+  border: 1px solid #455a64;
+  width: 24% !important;
+}
+
+.read {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  background: #d42027;
+  border: 0px;
+  color: #ffffff;
+  padding: 2%;
+}
+
+.card {
+  padding: 7% 6% 6% 6%;
+}
+
+.fa-arrow-right .fa-arrow-left {
+  color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+  .border_pix {
+    border: 1px solid #455a64;
+    width: 100% !important;
+  }
+
+  .maintain {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 26px;
+    color: #d42027;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .services,
+  .maintain {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 2000px) {
+  .services,
+  .maintain {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .maintain {
+    font-size: 29px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .services,
+  .maintain {
+    font-size: 29px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .services,
+  .maintain {
+    font-size: 27px;
+  }
+
+  .real-time {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .possess {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+@media only screen and (max-width: 800px) {
+}
+@media only screen and (max-width: 768px) {
+  .services,
+  .maintain {
+    font-size: 25px;
+  }
+
+  .realtimerContainer {
+    display: block;
+  }
+  .real-time {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .possess {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .services,
+  .maintain {
+    font-size: 20px;
+  }
+
+  .real-time {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .possess {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}

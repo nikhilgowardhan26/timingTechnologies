@@ -1,0 +1,50 @@
+html, body {
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif !important;
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden; */
+}
+
+.margin-top {
+    margin-top: 100px;
+}
+
+
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .marquee {
+    display: inline-flex;
+    padding-left: 100%;
+    animation: marquee 40s linear infinite;
+  }
+  
+.marquee img {
+    height: 90px; /* Adjust the height as needed */
+    margin-right: 35px; /* Space between images */
+  }
+  
+  
+  @keyframes marquee {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+  }
+
+  @media only screen and  (max-width: 768px) {
+    .marquee img {
+        height: 60px; 
+        margin-right: 35px; /* Space between images */
+      } 
+  }
+
+  

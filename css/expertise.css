@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+html, body {
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif !important;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.margin-top {
+    margin-top: 7rem;
+}
+/* 
+#navBarComponent2:hover {
+  background: #e6e6e6 !important;
+  border-radius: 20px;
+}
+#navBarComponent1:hover {
+  background: #e6e6e6 !important;
+  border-radius: 20px;
+}
+.dropdown-item:hover {
+  background-color: #e6e6e600 !important;
+  color: #161616 !important;
+  font-weight: 700;
+}
+.dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+  display: block;
+  margin-top: 0.125em;
+  margin-left: 0.125em;
+} */
+#navItem-Services {
+    color: #d22027 !important ;
+  }
+  .navbar {
+    background: #ffffff;
+  }
+  
+.aiPowerContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding:2% 6%;
+    gap: 5%;
+  }
+  
+.introduction {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #d22027;
+    text-align: center;
+    span {
+        color: #29455e;
+        font-size: 30px;
+        line-height: 40px;
+    }
+  }
+
+  
+.sporting {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #29455e;
+  }
+
+
+  .ai-power {
+    background-color: #f3f8fb;
+    border-radius: 12px;
+    position: relative;
+    /* border: 1px solid ; */
+  }
+  
+  .dotImage {
+    position: absolute;
+    width: 35px;
+    top: 15px;
+    left: 10px;
+  }
+  
+.athlete {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 29px;
+    color: #0d1035;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  
+  .Wearables {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #455a64;
+    text-align: justify;
+  }
+
+  
+.AI-based {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    color: #d22027;
+  }
+  
+  .design {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #455a64;
+  }
+  
+.why-1 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: left;
+    color: #1B3954;
+  }
+
+  .ai-optimal-Container {
+    display: flex;
+    gap: 3%;
+  }
+
+.bg_main {
+    background: #0D1035;
+    /* margin: 2% 3%; */
+    border-radius: 12px;
+    padding: 1% 2%;
+}
+
+.ai-save {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #d22027;
+  }
+  
+  .method {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #455a64;
+  }
+  
+
+  .ai-optimal-Container {
+    display: flex;
+    gap: 3%;
+  }
+  
+  .img-x {
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .img_1{
+    background-image: url("../images/01.png") ;
+  }
+  .img_2{
+    background-image: url("../images/02.png") ;
+    transform: translateY(200px);
+  }
+  .img_3{
+    background-image: url("../images/03.png") ;
+  }
+  .img_4{
+    background-image: url("../images/04.png") ;
+    transform: translateY(200px);
+  }
+  .trackerMargin{
+    margin-top: 230px;
+  }
+  .devices {
+    background: #ffffff;
+    box-shadow: 0px 10px 25px 0px #00003314;
+    border-radius: 14px;
+    padding: 1%;
+    margin: 3% 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1b3954;
+
+    text-align: center !important;
+  }
+
+  .direction {
+    text-align: center;
+  }
+  .p-18 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .ubuntu {
+    font-family: "Ubuntu", sans-serif;
+  }
+  .direction button {
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    transition: 0.5;
+  }
+  
+  .item {
+    margin: 10px 0;
+    width: 300px;
+    transform: scale(0.9);
+   
+  }
+  #list {
+    display: flex;
+    width: max-content;
+  }
+  #formList {
+    width: 100%;
+    overflow: auto;
+    margin: 20px auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: both;
+  }
+  #formList::-webkit-scrollbar {
+    display: none;
+  }
+  .item .card {
+    height: 370px !important;
+   
+  }
+  .direction {
+    text-align: center;
+  }
+  .direction button {
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    transition: 0.5;
+  }
+  .card-body {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+  }
+  .card {
+    padding: 7% 6% 2% 6%
+  }
+  .trackContainer {
+    display: flex;
+    gap: 4%;
+  }
+  
+.sticky {
+    height: 30px;
+    position: sticky;
+    top: 70px;
+    z-index: 2;
+    background-color: #fff;
+  }
+  
+.bread-crumb-a {
+    font-family: "Ubuntu", sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #6b6b6b;
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  
+.chip-time {
+    font-family: 'Ubuntu', sans-serif;
+    color: #79ACD9;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 6%;
+}
+
+.unique {
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFFFF;
+    
+    font-size: 16px;
+    line-height: 26px;
+    padding: 6%;
+}
+.security{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #1B3954;
+}
+
+.runners {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1B3954;
+    padding: 3px;
+    text-align: left;
+}
+
+.for{
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    color: #D22027;
+}
+.Movies {
+  box-shadow: 0 5px  10px 1px rgb(211, 208, 208);
+  border-radius: 4px;
+  
+}
+  
+  @media screen and (max-width: 1024px) {
+    .item {
+      width: calc(33.3vw-20px);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .item {
+      width: calc(50vw-20px);
+    }
+    
+    .trackContainer{
+        display: block !important;
+      }
+      .sticky {
+        display: none;
+    }
+    .chip-time {
+        font-size: 16px ;
+        line-height: 26px;
+    }
+    .unique {
+        font-size: 14px ;
+        line-height: 24px;
+    }
+    .security{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .Movies {
+      box-shadow: none;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .item {
+      width: calc(100vw-20px);
+    }
+  }
+  
+  
+@media only screen and (max-width: 1300px) {
+    .introduction, .why-1 {
+        font-size: 30px;
+        line-height:40px ;
+        span {
+            font-size: 30px;
+        }
+    }
+    .dotImage{
+        width: 20px;
+        left: 5px;
+      }
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .introduction, .why-1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .athlete, .Wearables{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .ai-save {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .method {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .devices {
+        font-size: 16px;
+    }
+    .aiPowerContainer {
+        display: block;
+      }
+      .dotImage{
+        width: 20px;
+        left: 5px;
+      }
+}
+
+@media only screen and (max-width: 768px) {
+    .margin-top {
+        margin-top: 5rem;
+    }
+    .sporting {
+        font-size: 16px;
+    }
+    .AI-based{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .design {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .why-1, .for {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+  .ai-optimal-Container {
+    display: block;
+  }
+  .img_2, .img_4{
+    transform: translateY(0);
+  }
+  .trackerMargin{
+    margin-top: 0px;
+  }
+  .dotImage{
+    width: 20px;
+    left: 5px;
+  }
+  .runners{
+    font-size: 16px;
+    line-height: 26px;
+  }
+ 
+}
+@media only screen and (max-width: 425px) {
+    .athlete, .Wearables{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .dotImage{
+        width: 10px;
+        left: 5px;
+      }
+      
+   
+
+}
