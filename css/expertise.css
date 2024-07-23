@@ -234,7 +234,7 @@ html, body {
   #formList {
     width: 100%;
     overflow: auto;
-    margin: 20px auto;
+    margin: 0 auto;
     scroll-behavior: smooth;
     scroll-snap-type: both;
   }

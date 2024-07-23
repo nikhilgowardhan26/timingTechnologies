@@ -1,0 +1,745 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+html {
+  /* background-image: url("https://i.pinimg.com/1200x/d7/38/de/d738de0912e1ea6a525442f0c6301f72.jpg"); */
+}
+html,
+body {
+  overflow: auto;
+}
+
+body {
+  font-family: 'Ubuntu';
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.sticky {
+  height: 30px;
+  position: sticky;
+  top: 73px;
+  z-index: 2;
+  background-color: #fff;
+}
+@media only screen and (max-width: 425px) {
+  .sticky {
+    display: none;
+  }
+}
+.bread-crumb-a {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+  color:  #6B6B6B;
+  font-weight: 300;
+  
+}
+#navItem-company {
+  color: #d42027;
+}
+/* middle css */
+.main-space {
+  margin-top: 100px !important;
+}
+
+.workwithus {
+  font-family: 'Ubuntu';
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #0d1035;
+}
+
+.trust {
+  font-family: 'Ubuntu';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #263238;
+}
+
+.passion {
+  font-family: 'Ubuntu';
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #d42027;
+}
+
+.bg_light1, .bg_light2,.bg_light3, .bg_light4{
+  background: #ffffff;
+  box-shadow: 0px 10px 25px 0px #00003314;
+  border-radius: 20px;
+  width: 52%;
+  padding: 4%;
+}
+
+.positions_lt {
+  left: 30%;
+  top: 50%;
+  margin-bottom: 20%;
+}
+.positions_rt {
+  left: 30%;
+  top: 50%;
+  margin-bottom: 20%;
+}
+
+.positions_lt_1 {
+  left: 30%;
+  top: 40%;
+}
+
+.left-mb {
+  left: 20%;
+  margin-bottom: 10%;
+}
+
+.innovative {
+  font-family: 'Ubuntu';
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #d42027;
+}
+
+.revamp {
+  font-family: 'Ubuntu';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #000;
+}
+.see {
+  font-family: 'Ubuntu';
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #000;
+}
+.still {
+  font-family: 'Ubuntu';
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 52px;
+  color: #000;
+}
+.getin {
+  font-family: 'Ubuntu';
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+
+
+.address {
+  font-family: 'Ubuntu';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.company {
+  font-family: 'Ubuntu';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #d22027;
+}
+
+.about {
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.icons {
+  color: #ffffff;
+  font-size: 25px !important;
+  letter-spacing: 30px;
+  line-height: 30px;
+}
+
+.copyright {
+  color: #fff;
+}
+
+.openings{
+  color: #263238;
+  font-size: 80px;
+  font-weight: 300;
+  font-family: "Ubuntu";
+}
+.roles{
+  font-family: "Ubuntu";
+  font-size: 30px;
+}
+.type {
+  font-family: "Ubuntu";
+  font-size: 18px;
+  color: #666666;
+
+}
+.location {
+  font-family: "Ubuntu";
+  font-size: 18px;
+  color: #666666;
+}
+.select{
+  height: 3%;
+  border-radius: 20px;
+  border: 1px solid #E0E0E0;
+}
+#navBarComponent2:hover {
+  background: #e6e6e6 !important;
+  border-radius: 20px;
+}
+#navBarComponent1:hover {
+  background: #e6e6e6 !important;
+  border-radius: 20px;
+}
+.dropdown-item:hover {
+  background-color: #e6e6e600 !important;
+  color: #161616 !important;
+  font-weight: 700;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d22027; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff; 
+}
+
+
+ .bg_light1,.bg_light2.bg_light3,.bg_light4 {
+  background-color: white;
+ }
+ 
+ 
+ @media only screen and (min-width: 2000px){ 
+  .passionContainer{
+    margin: 2%;
+    padding:0 20%;
+  }
+  .Rectangle_97, .Rectangle_103,.Rectangle_99,.Rectangle_101 {
+    width: 75%;
+    
+  }
+  .Rectangle_97,.Rectangle_101 {
+    position: relative;
+    left: 0%;
+  }
+  .Rectangle_103,.Rectangle_99{
+    position: relative;
+    left: 25%;
+  }
+  
+  .fourContainer { 
+    margin-bottom:10% ;
+  }
+  .positions_rt{
+    left: 25%;
+    top: 70%;
+  }
+  .bg_light1 {
+    width: 95%;
+    padding: 5%;
+  }
+  .bg_light2 {
+    width: 90%;
+    padding: 5%;
+  }
+  .bg_light3 {
+    width: 95%;
+    padding: 5%;
+  }
+  .bg_light4 {
+    width: 90%;
+    padding: 5%;
+  }
+  .positions_lt{
+    left: 0%;
+    top: 66%;
+  }
+ 
+  
+  .roles {
+     font-size: 40px;
+  } 
+  .type,.location{
+    font-size: 25px
+  }
+ }
+  
+ @media only screen and (max-width: 2000px){ 
+  .passionContainer{
+    margin: 2%;
+  }
+  .Rectangle_97,.Rectangle_101 {
+    position: relative;
+    left: 20%;
+  }
+  .Rectangle_103,.Rectangle_99{
+    position: relative;
+    left: 48%;
+  }
+  .fourContainer { 
+    margin-bottom:7% ;
+  }
+  .bg_light1,.bg_light3{
+    width: 70%;
+  } 
+
+ .positions_lt {
+  left: 20%;
+  top: 50%;
+  margin-bottom: 20%;
+}
+ .positions_rt {
+  left: 48%;
+ }
+ .getin {font-size: 25px;line-height: 25px; transition: 0.5s ease;}
+}
+ @media only screen and (max-width: 1800px){
+  .bg_light1{
+    width: 80%;
+  }
+  .bg_light2 {
+    width: 55%;
+  }
+  .Rectangle_97, .Rectangle_101,.Rectangle_103 {
+    position: relative;
+    left: 15%;
+}
+.Rectangle_99,.Rectangle_103{
+  position: relative;
+  left: 40%;
+}
+  .positions_lt  {
+    left: 10%;
+  }
+
+  .getin {font-size: 31px;line-height: 25px; transition: 0.5s ease;}
+  }
+ @media only screen and (max-width: 1500px){
+  .bg_light1,.bg_light3{
+    width: 95%;
+  }
+  .bg_light2,.bg_light4{
+    width: 65%;
+  }
+    .Rectangle_97, .Rectangle_101 {
+      position: relative;
+      left: 15%;
+  }
+  
+  .positions_lt  {
+    left: 10%;
+  }
+  .see {  font-size: 24px; line-height: 20px;} 
+
+  .getin {font-size: 30px;line-height: 25px; transition: 0.5s ease;}
+  }
+ @media only screen and (max-width: 1200px){
+  .bg_light1,.bg_light3{
+    width: 95%;
+  }
+ 
+  .bg_light2,.bg_light4{
+    width: 65%;
+  }
+  .Rectangle_99,.Rectangle_101,.Rectangle_97,.Rectangle_103{
+     position: static;
+     display: block;
+     margin: 0 auto;
+  }
+ 
+.positions_lt  {
+  left: 10%;
+}
+
+.see {  font-size: 20px; line-height: 20px;} 
+  }
+ @media only screen and (max-width: 1024px){
+  .bg_light1,.bg_light2{
+    width: 95%;
+  }
+ 
+ 
+
+ 
+  .Rectangle_99,.Rectangle_101,.Rectangle_97,.Rectangle_103{
+     position: static;
+     width: 85%;
+     display: block;
+     margin: 0 auto;
+  }
+  .bg_light1,.bg_light3{
+    width: 90%;
+    margin-top: 20px;
+
+  }
+ 
+ 
+  .bg_light2, .bg_light4{
+    width: 80%;
+  }
+    .positions_rt  {
+      left: 30%;
+    }
+    .positions_lt  {
+      left: 5%;
+    }
+    .see {  font-size: 23px; line-height: 20px;} 
+    .getin {font-size: 29px;line-height: 25px; transition: 0.5s ease;}
+    }
+
+
+ @media only screen and (max-width: 800px){
+  .Rectangle_97,.Rectangle_99,.Rectangle_101,.Rectangle_103 {
+    position: static;
+     display: block;
+     margin: 0 auto;
+     width: 90%;
+   }
+   
+   
+  
+  
+   .positions_lt  { 
+    left: 0%;
+    top:55%
+    }
+   .positions_rt  { 
+    left: 20%;
+    top:62%
+    }
+   
+ 
+
+   /* .revamp { font-size: 18px ; line-height: 30px; font-weight: 500;margin: 0;} */
+    .bg_light1  {
+      width: 100%;
+   }
+   .bg_light2{
+     width: 80%;
+     margin-top: 20px;
+   }
+    .openings { font-size: 33px; font-weight: 400; line-height: 100px;}  
+    .fourContainer {
+      margin:60px auto;
+      display: flex;
+      justify-content: center;
+    }
+    .getin {font-size: 25px;line-height: 25px; transition: 0.5s ease;}
+    .see {  font-size: 22px; line-height: 20px;} 
+    .still {font-size: 17px; line-height: 20px;}
+    .roles  {
+       font-size: 17px;
+    }
+    .type, .location { font-size: 14px ;}
+  }
+
+ @media only screen and (max-width: 768px){ 
+
+  .workwithus  { font-size: 35px;
+    line-height: 45px; }
+    .trust {
+      font-size: 16px;
+      line-height: 26px;
+    }
+    
+    .passion{
+      font-size: 25px ;
+      line-height: 35px;
+    }
+
+
+
+  .Rectangle_97,.Rectangle_99,.Rectangle_101,.Rectangle_103 {
+    width: 90%;
+      position: static;
+     display: block;
+     margin: 0 auto;
+   }
+  
+   .main-space {
+    margin-top: 80px !important;
+   }
+
+   
+   .positions_lt  { 
+    left: 0%;
+    top:63%
+    }
+   .positions_rt  { 
+    left: 20%;
+    top:62%
+    }
+   
+   /* .revamp { font-size: 18px ; line-height: 25px; font-weight: 400;margin: 0;} */
+   .bg_light1,.bg_light3  {
+     width: 100%;
+    
+    }
+    .bg_light2,.bg_light4{
+      width: 80%;
+      margin-top: 15px;
+    }
+    .openings { font-size: 33px; font-weight: 400; line-height: 100px;}  
+    .fourContainer {
+      margin:60px auto;
+      display: flex;
+      justify-content: center;
+    }
+    .getin {font-size: 25px;line-height: 25px; transition: 0.5s ease;}
+    .see {  font-size: 21px; line-height: 20px;} 
+    .still {font-size: 17px; line-height: 20px;}
+    .roles  {
+       font-size: 17px;
+    }
+    .type, .location { font-size: 14px ;}
+ }
+ @media only screen and (max-width: 500px){ 
+  .Rectangle_97,.Rectangle_99,.Rectangle_101,.Rectangle_103 {
+    width: 90%;
+    position: static;
+    display: block;
+    margin: 0 auto;
+   }
+  
+   
+
+   .positions_lt  { 
+    left: 0%;
+    top:55%
+    }
+   .positions_rt  { 
+    left: 20%;
+    top:62%
+    }
+   
+   
+   /* .revamp { font-size: 13px ; line-height: 18px; font-weight: 400;margin: 0;} */
+   .bg_light1 ,.bg_light3 {
+     width: 100%;
+    }
+    .bg_light2,.bg_light4{
+      width: 80%;
+    }
+    .openings { font-size: 33px; font-weight: 400; line-height: 100px;}  
+    .fourContainer {
+      margin: 40px auto;
+      display: flex;
+      justify-content: center;
+    }
+    .getin {font-size: 23px;line-height: 25px; transition: 0.5s ease;}
+    .see {  font-size: 20px; line-height: 20px;} 
+    .still {font-size: 17px; line-height: 20px;}
+    .roles  { font-size: 17px;}
+    .type, .location { font-size: 14px ;}
+ }
+
+
+ @media only screen and (max-width: 425px){
+  .Rectangle_97,.Rectangle_99,.Rectangle_101,.Rectangle_103 {
+    width: 95%;
+    position: static;
+    display: block;
+    margin: 0 auto;
+   }
+  
+   .main-space {
+    margin-top:70px ;
+    padding: 2%;
+   }
+  
+   /* .revamp { font-size: 14px ; line-height: 18px; font-weight: 500; margin: 0;} */
+   
+    .bg_light1,.bg_light3  {
+       width: 100%;
+    }
+    .bg_light2,.bg_light4{
+      width: 90%;
+    }
+    .openings { font-size: 33px; font-weight: 400; line-height: 100px;}  
+    .fourContainer {
+      margin-top: 40px;
+      margin-bottom: 70px;
+      display: flex;
+      justify-content: center;
+    }
+    .positions_lt  { 
+      left: -1%;
+      top:57%
+      }
+     .positions_rt  { 
+      left: 9%;
+      top:57%
+      }
+    .getin {font-size: 21px;line-height: 19px;}
+    .see {  font-size: 18px; line-height: 0px;} 
+    .still {font-size: 15px; line-height: 15px;}
+    .roles  {font-size: 15px;}
+    .type, .location { font-size: 13px ;}
+  }
+  @media only screen and (max-width: 375px){
+    
+     
+     .Rectangle_97,.Rectangle_99,.Rectangle_101,.Rectangle_103 {
+      width: 99%;
+      position: static;
+      display: block;
+      margin: 0 auto;
+     }
+    
+
+     
+     
+     .positions_lt  { 
+       left: -1%;
+       top:57%
+      }
+      .positions_rt  { 
+        left: 9%;
+        top:57%
+      }
+      .bg_light1,.bg_light3{
+        width: 100%;
+      }
+      .bg_light2,.bg_light4{
+        width: 90%;
+      }
+      
+      .openings { font-size: 30px; font-weight: 400; line-height: 100px;}  
+      .fourContainer {
+        margin-top: 10px;
+        margin-bottom: 70px;
+      }
+      .revamp { font-size: 12px ; line-height: 16px; font-weight: 400; margin: 0;}
+      .getin {font-size: 20px;line-height: 19px;}
+      .see {  font-size: 17px; line-height: 0px;} 
+      .still {font-size: 15px; line-height: 15px;}
+      .roles  {font-size: 15px;}
+      .type, .location { font-size: 13px ;}
+  }
+ @media only screen and (max-width: 320px){
+  
+   
+   .Rectangle_97,.Rectangle_99,.Rectangle_101,.Rectangle_103 {
+    width: 99%;
+    position: static;
+    display: block;
+    margin: 0 auto;
+   }
+  
+  
+  
+   
+   .positions_lt  { 
+     left: -1%;
+     top:57%
+    }
+    .positions_rt  { 
+      left: 9%;
+      top:57%
+    }
+    .bg_light1,.bg_light3{
+      width: 100%;
+    }
+    .bg_light2,.bg_light4{
+      width: 90%;
+      margin: 0;
+    }
+    
+    .openings { font-size: 30px; font-weight: 400; line-height: 100px;}  
+    .fourContainer {
+      margin-top: 10px;
+      margin-bottom: 70px;
+    }
+    .revamp { font-size: 12px ; line-height: 16px; font-weight: 400; margin: 0;}
+    .getin {font-size: 20px;line-height: 19px;}
+    .see {  font-size: 16px; line-height: 0px;} 
+    .still {font-size: 15px; line-height: 15px;}
+    .roles  {font-size: 15px;}
+    .type, .location { font-size: 13px ;}
+  }
+
+/* ------------------------------------------------------------------------------ */
+
+  .flipContainer {
+    border: 1px solid;
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .flipContainer .flip_Image {
+    border: 1px solid ; 
+    /* width: 400px;  */
+    height: 100%;
+  }
+  .flipContainer .content {
+    position: absolute;
+    left: 450px;
+    top: 200px;
+    background-color: white;
+    padding: 20px 30px;
+    width: 450px;
+    border: 1px solid;
+  }
+
+  @media only screen and (max-width:1024px) {
+    .flipContainer {
+      width: 700px ;
+      height: 300px ;
+    }
+    .flipContainer .content {
+     
+      left: 320px;
+      top: 120px;
+      padding: 10px 20px;
+      width: 410px;
+    
+    }
+  }
+  @media only screen and (max-width:768px) {
+    .flipContainer {
+      width: 400px ;
+      height: 200px ;
+    }
+    .flipContainer .content {
+      position: static;
+    }
+  }
+  @media only screen and (max-width:425px) {
+    
+  }
