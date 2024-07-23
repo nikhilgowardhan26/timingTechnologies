@@ -39,38 +39,32 @@ body {
 .main-space {
   margin-top: 50px !important;
 }
-
 .workwithus {
   font-family: 'Ubuntu';
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 50px;
   color: #0d1035;
 }
 
+
 .trust {
   font-family: 'Ubuntu';
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
-  line-height: 35px;
+  line-height: 28px;
   color: #263238;
 }
 
 .passion {
   font-family: 'Ubuntu';
-  font-size: 43px;
+  font-size: 35px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 45px;
   color: #d42027;
 }
 
-.bg_light1, .bg_light2,.bg_light3, .bg_light4{
-  background: #ffffff;
-  box-shadow: 0px 10px 25px 0px #00003314;
-  border-radius: 20px;
-  width: 52%;
-  padding: 4%;
-}
+
 
 .positions_lt {
   left: 30%;
@@ -93,40 +87,25 @@ body {
   margin-bottom: 10%;
 }
 
-.innovative {
-  font-family: 'Ubuntu';
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 50px;
-  color: #d42027;
-}
-
-.revamp {
-  font-family: 'Ubuntu';
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 39px;
-  color: #000;
-}
 .see {
   font-family: 'Ubuntu';
-  font-size: 39px;
+  font-size: 25px;
   font-weight: 700;
-  line-height: 52px;
+  line-height: 35px;
   color: #000;
 }
 .still {
   font-family: 'Ubuntu';
-  font-size: 35px;
+  font-size: 23px;
   font-weight: 400;
-  line-height: 52px;
+  line-height: 33px;
   color: #000;
 }
 .getin {
   font-family: 'Ubuntu';
-  font-size: 44px;
+  font-size: 25px;
   font-weight: 700;
-  line-height: 52px;
+  line-height: 35px;
 }
 
 
@@ -235,65 +214,19 @@ body {
 }
 
 
- .bg_light1,.bg_light2.bg_light3,.bg_light4 {
-  background-color: white;
- }
- 
- 
  @media only screen and (min-width: 2000px){ 
-  .passionContainer{
-    margin: 2%;
-    padding:0 20%;
-  }
-  .Rectangle_97, .Rectangle_103,.Rectangle_99,.Rectangle_101 {
-    width: 75%;
-    
-  }
-  .Rectangle_97,.Rectangle_101 {
-    position: relative;
-    left: 0%;
-  }
-  .Rectangle_103,.Rectangle_99{
-    position: relative;
-    left: 25%;
-  }
   
-  .fourContainer { 
-    margin-bottom:10% ;
-  }
+ 
   .positions_rt{
     left: 25%;
     top: 70%;
   }
-  .bg_light1 {
-    width: 95%;
-    padding: 5%;
-  }
-  .bg_light2 {
-    width: 90%;
-    padding: 5%;
-  }
-  .bg_light3 {
-    width: 95%;
-    padding: 5%;
-  }
-  .bg_light4 {
-    width: 90%;
-    padding: 5%;
-  }
+  
   .positions_lt{
     left: 0%;
     top: 66%;
   }
-  .revamp {
-    font-size: 29px;
-    line-height: 40px;
-    margin: 0;
-  }
-  .innovative {
-    margin: 0;
-    font-size: 45px;
-  }
+  
   .roles {
      font-size: 40px;
   } 
@@ -303,28 +236,7 @@ body {
  }
   
  @media only screen and (max-width: 2000px){ 
-  .passionContainer{
-    margin: 2%;
-  }
-  .Rectangle_97,.Rectangle_101 {
-    position: relative;
-    left: 20%;
-  }
-  .Rectangle_103,.Rectangle_99{
-    position: relative;
-    left: 48%;
-  }
-  .fourContainer { 
-    margin-bottom:7% ;
-  }
-  .bg_light1,.bg_light3{
-    width: 70%;
-  } 
-  .revamp {
-    font-size: 27px;
-    line-height: 38px;
-    margin: 0;
- }
+  
  .positions_lt {
   left: 20%;
   top: 50%;
@@ -333,23 +245,10 @@ body {
  .positions_rt {
   left: 48%;
  }
- .getin {font-size: 25px;line-height: 25px; transition: 0.5s ease;}
+
 }
  @media only screen and (max-width: 1800px){
-  .bg_light1{
-    width: 80%;
-  }
-  .bg_light2 {
-    width: 55%;
-  }
-  .Rectangle_97, .Rectangle_101,.Rectangle_103 {
-    position: relative;
-    left: 15%;
-}
-.Rectangle_99,.Rectangle_103{
-  position: relative;
-  left: 40%;
-}
+ 
   .positions_lt  {
     left: 10%;
   }.revamp{
@@ -357,19 +256,10 @@ body {
     line-height: 33px;
   }
 
-  .getin {font-size: 31px;line-height: 25px; transition: 0.5s ease;}
+ 
   }
  @media only screen and (max-width: 1500px){
-  .bg_light1,.bg_light3{
-    width: 95%;
-  }
-  .bg_light2,.bg_light4{
-    width: 65%;
-  }
-    .Rectangle_97, .Rectangle_101 {
-      position: relative;
-      left: 15%;
-  }
+ 
   .main-space {
     margin-top:100px ;
     padding: 2%;
@@ -377,26 +267,18 @@ body {
   .positions_lt  {
     left: 10%;
   }
-  .see {  font-size: 24px; line-height: 20px;} 
+ 
 
-  .getin {font-size: 30px;line-height: 25px; transition: 0.5s ease;}
+
   }
  @media only screen and (max-width: 1200px){
-  .bg_light1,.bg_light3{
-    width: 95%;
-  }
+ 
   .main-space {
     margin-top:100px ;
     padding: 2%;
    }
-  .bg_light2,.bg_light4{
-    width: 65%;
-  }
-  .Rectangle_99,.Rectangle_101,.Rectangle_97,.Rectangle_103{
-     position: static;
-     display: block;
-     margin: 0 auto;
-  }
+ 
+ 
   .main-space {
     margin-top:100px ;
     padding: 2%;
@@ -404,107 +286,42 @@ body {
 .positions_lt  {
   left: 10%;
 }
-.revamp{
-  font-size: 24px;
 
-}
-.see {  font-size: 20px; line-height: 20px;} 
+
   }
  @media only screen and (max-width: 1024px){
-  .bg_light1,.bg_light2{
-    width: 95%;
-  }
-  .passion {
-    font-size: 30px;
-  }
  
-  .innovative{
-    font-size: 27px;
-  }
-  .revamp { font-size: 22px ; line-height: 30px; font-weight: 500;margin: 0;}
-  .Rectangle_99,.Rectangle_101,.Rectangle_97,.Rectangle_103{
-     position: static;
-     width: 85%;
-     display: block;
-     margin: 0 auto;
-  }
-  .bg_light1,.bg_light3{
-    width: 90%;
-    margin-top: 20px;
-
-  }
-  .workwithus  { font-size: 28px;line-height: 30px; }
+ 
+  
   .main-space {
     margin-top:100px ;
     padding: 2%;
    }
-  .bg_light2, .bg_light4{
-    width: 80%;
-  }
+  
     .positions_rt  {
       left: 30%;
     }
     .positions_lt  {
       left: 5%;
     }
-    .see {  font-size: 23px; line-height: 20px;} 
-    .getin {font-size: 29px;line-height: 25px; transition: 0.5s ease;}
+   
+    
     }
 
 
  @media only screen and (max-width: 800px){
-  .Rectangle_97,.Rectangle_99,.Rectangle_101,.Rectangle_103 {
-    position: static;
-     display: block;
-     margin: 0 auto;
-     width: 90%;
-   }
-   .passion  {
-    font-size: 25px;line-height: 27px;
-   }
+  
    .main-space {
     margin-top:100px ;
     padding: 2%;
    }
-   .workwithus  { font-size: 23px;line-height: 25px; }
-   .trust  {
-    font-size: 15px;
-    transition: 0.5s ease;
-    line-height: 16px;
-    text-align: justify;
-   }
-   .positions_lt  { 
-    left: 0%;
-    top:55%
-    }
-   .positions_rt  { 
-    left: 20%;
-    top:62%
-    }
-   
-   .innovative { 
-    font-size: 25px;
-    line-height: 30px;
-    margin: 0;
-   }
 
-   .revamp { font-size: 18px ; line-height: 30px; font-weight: 500;margin: 0;}
-    .bg_light1  {
-      width: 100%;
-   }
-   .bg_light2{
-     width: 80%;
-     margin-top: 20px;
-   }
+   
+
     .openings { font-size: 33px; font-weight: 400; line-height: 100px;}  
-    .fourContainer {
-      margin:60px auto;
-      display: flex;
-      justify-content: center;
-    }
-    .getin {font-size: 25px;line-height: 25px; transition: 0.5s ease;}
-    .see {  font-size: 22px; line-height: 20px;} 
-    .still {font-size: 17px; line-height: 20px;}
+    
+    
+   
     .roles  {
        font-size: 17px;
     }
@@ -512,26 +329,22 @@ body {
   }
 
  @media only screen and (max-width: 768px){ 
-  .Rectangle_97,.Rectangle_99,.Rectangle_101,.Rectangle_103 {
-    width: 90%;
-      position: static;
-     display: block;
-     margin: 0 auto;
-   }
-   .passion  {
-    font-size: 25px;line-height: 27px;
-   }
+
+   .passion{
+    font-size: 25px ;
+    line-height: 35px;
+  }
+
    .main-space {
     margin-top:100px ;
     padding: 2%;
    }
-   .workwithus  { font-size: 23px;line-height: 25px; }
-   .trust  {
-    font-size: 15px;
-    transition: 0.5s ease;
-    line-height: 16px;
-    text-align: justify;
-   }
+   .workwithus  { font-size: 35px;
+    line-height: 45px; }
+    .trust {
+      font-size: 16px;
+      line-height: 26px;
+    }
    .positions_lt  { 
     left: 0%;
     top:63%
@@ -540,56 +353,26 @@ body {
     left: 20%;
     top:62%
     }
-   
-   .innovative { 
-    font-size: 25px;
-    line-height: 30px;
-    margin: 0;
-   }
-   .revamp { font-size: 18px ; line-height: 25px; font-weight: 400;margin: 0;}
-   .bg_light1,.bg_light3  {
-     width: 100%;
-    
-    }
-    .bg_light2,.bg_light4{
-      width: 80%;
-      margin-top: 15px;
-    }
+  
     .openings { font-size: 33px; font-weight: 400; line-height: 100px;}  
-    .fourContainer {
-      margin:60px auto;
-      display: flex;
-      justify-content: center;
-    }
-    .getin {font-size: 25px;line-height: 25px; transition: 0.5s ease;}
-    .see {  font-size: 21px; line-height: 20px;} 
-    .still {font-size: 17px; line-height: 20px;}
+    
+    
+    .see { font: size 20px;line-height: 30px;}
+    .still { font-size: 18px; line-height:28px}
+    .getinfo { font-size:20px; line-height:30px}
     .roles  {
        font-size: 17px;
     }
     .type, .location { font-size: 14px ;}
  }
  @media only screen and (max-width: 500px){ 
-  .Rectangle_97,.Rectangle_99,.Rectangle_101,.Rectangle_103 {
-    width: 90%;
-    position: static;
-    display: block;
-    margin: 0 auto;
-   }
-   .passion  {
-    font-size: 25px;line-height: 27px;
-   }
+  
    .main-space {
     margin-top:100px ;
     padding: 2%;
    }
-   .workwithus  { font-size: 23px;line-height: 25px; }
-   .trust  {
-    font-size: 15px;
-    transition: 0.5s ease;
-    line-height: 16px;
-    text-align: justify;
-   }
+  
+   
    .positions_lt  { 
     left: 0%;
     top:55%
@@ -598,75 +381,27 @@ body {
     left: 20%;
     top:62%
     }
-   
-   .innovative { 
-    font-size: 23px;
-    line-height: 30px;
-    margin: 0;
-   }
-   .revamp { font-size: 13px ; line-height: 18px; font-weight: 400;margin: 0;}
-   .bg_light1 ,.bg_light3 {
-     width: 100%;
-    }
-    .bg_light2,.bg_light4{
-      width: 80%;
-    }
+
     .openings { font-size: 33px; font-weight: 400; line-height: 100px;}  
-    .fourContainer {
-      margin: 40px auto;
-      display: flex;
-      justify-content: center;
-    }
-    .getin {font-size: 23px;line-height: 25px; transition: 0.5s ease;}
-    .see {  font-size: 20px; line-height: 20px;} 
-    .still {font-size: 17px; line-height: 20px;}
+    
+    
+   
     .roles  { font-size: 17px;}
     .type, .location { font-size: 14px ;}
  }
 
 
  @media only screen and (max-width: 425px){
-  .Rectangle_97,.Rectangle_99,.Rectangle_101,.Rectangle_103 {
-    width: 95%;
-    position: static;
-    display: block;
-    margin: 0 auto;
-   }
-   .passion  {
-    font-size: 25px;line-height: 27px;
-   }
+  
    .main-space {
     margin-top:100px ;
     padding: 2%;
    }
-   .workwithus  { font-size: 23px;line-height: 25px; }
-   .trust  {
-    font-size: 15px;
-    transition: 0.5s ease;
-    line-height: 16px;
-    text-align: justify;
-   }
+  
+
    
-   .innovative { 
-    font-size: 20px;
-    line-height: 30px;
-    margin: 0;
-   }
-   .revamp { font-size: 14px ; line-height: 18px; font-weight: 500; margin: 0;}
-   
-    .bg_light1,.bg_light3  {
-       width: 100%;
-    }
-    .bg_light2,.bg_light4{
-      width: 90%;
-    }
     .openings { font-size: 33px; font-weight: 400; line-height: 100px;}  
-    .fourContainer {
-      margin-top: 40px;
-      margin-bottom: 70px;
-      display: flex;
-      justify-content: center;
-    }
+   
     .positions_lt  { 
       left: -1%;
       top:57%
@@ -675,40 +410,21 @@ body {
       left: 9%;
       top:57%
       }
-    .getin {font-size: 21px;line-height: 19px;}
-    .see {  font-size: 18px; line-height: 0px;} 
-    .still {font-size: 15px; line-height: 15px;}
+   
+ 
+   
     .roles  {font-size: 15px;}
     .type, .location { font-size: 13px ;}
   }
   @media only screen and (max-width: 375px){
-    .passion  {
-      font-size: 20px;line-height: 25px;
-      margin-top: 25px;
-     }
+    
      
-     .Rectangle_97,.Rectangle_99,.Rectangle_101,.Rectangle_103 {
-      width: 99%;
-      position: static;
-      display: block;
-      margin: 0 auto;
-     }
      .main-space {
       margin-top:100px ;
       padding: 2%;
      }
-     .workwithus  { font-size: 23px;line-height: 25px; }
-     .trust  {
-      font-size: 14px;
-      line-height: 16px;
-      text-align: justify;
-     }
-     
-     .innovative { 
-      font-size: 18px;
-      line-height: 30px;
-      margin: 0;
-     }
+    
+
      .positions_lt  { 
        left: -1%;
        top:57%
@@ -717,54 +433,26 @@ body {
         left: 9%;
         top:57%
       }
-      .bg_light1,.bg_light3{
-        width: 100%;
-      }
-      .bg_light2,.bg_light4{
-        width: 90%;
-      }
+      
       
       .openings { font-size: 30px; font-weight: 400; line-height: 100px;}  
-      .fourContainer {
-        margin-top: 10px;
-        margin-bottom: 70px;
-      }
-      .revamp { font-size: 12px ; line-height: 16px; font-weight: 400; margin: 0;}
-      .getin {font-size: 20px;line-height: 19px;}
-      .see {  font-size: 17px; line-height: 0px;} 
-      .still {font-size: 15px; line-height: 15px;}
+      
+     
+     
+      
       .roles  {font-size: 15px;}
       .type, .location { font-size: 13px ;}
   }
  @media only screen and (max-width: 320px){
-  .passion  {
-    font-size: 20px;
-    line-height: 25px;
-    margin-top: 25px;
-   }
+  
    
-   .Rectangle_97,.Rectangle_99,.Rectangle_101,.Rectangle_103 {
-    width: 99%;
-    position: static;
-    display: block;
-    margin: 0 auto;
-   }
    .main-space {
     margin-top:100px ;
     padding: 2%;
    }
-   .workwithus  { font-size: 23px;line-height: 25px; }
-   .trust  {
-    font-size: 14px;
-    line-height: 16px;
-    text-align: justify;
-   }
-   
-   .innovative { 
-    font-size: 16px;
-    line-height: 28px;
-    margin: 0;
-   }
+
+  
+
    .positions_lt  { 
      left: -1%;
      top:57%
@@ -773,27 +461,169 @@ body {
       left: 9%;
       top:57%
     }
-    .bg_light1,.bg_light3{
-      width: 100%;
-    }
-    .bg_light2,.bg_light4{
-      width: 90%;
-      margin: 0;
-    }
+    
     
     .openings { font-size: 30px; font-weight: 400; line-height: 100px;}  
-    .fourContainer {
-      margin-top: 10px;
-      margin-bottom: 70px;
-    }
-    .revamp { font-size: 12px ; line-height: 16px; font-weight: 400; margin: 0;}
-    .getin {font-size: 20px;line-height: 19px;}
-    .see {  font-size: 16px; line-height: 0px;} 
-    .still {font-size: 15px; line-height: 15px;}
+   
+    
+   
+  
+    
     .roles  {font-size: 15px;}
     .type, .location { font-size: 13px ;}
   }
 
 /* ------------------------------------------------------------------------------ */
+.innovative {
+  font-size: 20px;
+  /* line-height: 30px; */
+  color: #d22027;
+  font-weight: 700;
+}
 
+.passionContainer {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin: 40px auto 0;
+}
+.fourContainer1 {
+    margin-bottom: 100px;
+    position: relative;
+    height: 380px;
+    margin-left: -200px;
+     img{
+        height: 100%;
+     }
+}
+.fourContainer2 {
+    margin-bottom: 100px;
+    position: relative;
+    height: 380px;
+    margin-left: 200px;
+     img{
+        height: 100%;
+     }
+}
+.position-absolute1 {
+    position: absolute;
+    top: 200px;
+    left: 380px;
+    width: 370px;
+    background-color: #fff;
+    padding: 25px;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px rgb(211, 209, 209);
+}
+.position-absolute2 {
+    position: absolute;
+    top: 200px;
+    left: -250px;
+    width: 370px;
+    background-color: #fff;
+    padding: 25px;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px rgb(211, 209, 209);
+}
+
+.revamp{
+    font-size: 16px ;
+    line-height: 26px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .fourContainer1, .fourContainer2{
+        height: 300px;
+        
+    }
+   .fourContainer1 {
+    margin-bottom: 120px;
+   }
+   .fourContainer2 {
+    margin-bottom: 140px;
+   }
+    .position-absolute1{
+        top: 160px;
+        left: 300px;
+        padding: 15px;
+    }
+    .position-absolute2{
+        top: 160px;
+        left: -240px;
+        padding: 15px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .fourContainer1, .fourContainer2{
+        height: 250px;
+    }
+    .fourContainer1 {
+        margin-left: -100px;
+}
+.fourContainer2{
+   
+    margin-left: 100px;
+ }
+ .position-absolute1, .position-absolute2{
+  width: 350px;
+ }
+.position-absolute1{
+    top: 140px;
+    left: 100px;
+    padding: 15px;
+}
+.position-absolute2{
+    top: 140px;
+    left: -100px;
+    padding: 15px;
+}
+}
+
+
+
+@media only screen and (max-width: 425px) {
+    .fourContainer1, .fourContainer2 {
+        height: 200px;
+        margin-bottom: 180px;
+       
+    }
+    .fourContainer1{
+       margin-left: -60px;
+      
+    }
+    .fourContainer2{
+       
+        margin-left: 60px;
+     }
+    .position-absolute1{
+        top: 120px;
+        width: 250px;
+        left: 60px;
+        padding: 10px;
+    }
+    .position-absolute2{
+        top: 120px;
+        width: 250px;
+        left: -60px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    /* .fourContainer1{
+        margin-left: -40px;
+    } */
+    .fourContainer2{
+        margin-left: 60px;
+     }
+     .position-absolute1{ 
+        left: 60px;
+     }
+     .position-absolute2{
+        left: -50px;
+     }
+}
   

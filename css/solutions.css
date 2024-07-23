@@ -773,7 +773,7 @@ body {
         height: auto;
       }
     .ciuMini {
-      width: 90%;
+      width: 100%;
       display: flex;
       gap: 5%;
       margin-bottom: 15px;

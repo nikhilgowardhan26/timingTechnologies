@@ -92,6 +92,7 @@ body {
 
 .tab_btn.active {
     color: #D22027;
+	font-weight: bolder;
 }
 
 .line {

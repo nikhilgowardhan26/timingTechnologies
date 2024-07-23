@@ -41,7 +41,7 @@ function hideTarget2() {
 
     const ImageData = [
         { 
-            image : '../images/demo/demo_3.jpg',
+            image : '../images/demo/demo_3.png',
             head : `Evaluating the capable candidates who are fit to serve the country with transparency through modern AI. Easy-to-use equipment with proof recording calculations.`,
             para : `Get an insight into how the process of recruitment has now been made simple to assess. `,
             link : `../TRP-CaseStudy/TRPCaseStudy.html`
@@ -60,7 +60,7 @@ function hideTarget2() {
              link : `../PETHeightScale-CaseStudy/PETHeightScaleCaseStudy.html`
         },
         { 
-            image : '../images/demo/demo_1.avif',
+            image : '../images/demo/demo_0.avif',
             head : `Eliminating signature forgery with an AI-driven approach including enhanced accuracy, high-performance speed, and exceptional transparency. `,
             para : `Get an Insight into why signature detection is substantial in Recruitment examinations.`,
              link : `../Addressing-CaseStudy/AddressingCaseStudy.html`

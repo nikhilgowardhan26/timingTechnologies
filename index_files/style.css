@@ -90,6 +90,8 @@ body {
   position: relative;
   box-sizing: border-box;
   padding: 1%;
+  max-width: 1500px;
+  margin: 0 auto ;
 }
 
 .caseStudyHeading {
@@ -105,8 +107,9 @@ body {
 }
 
 .case_02_para1 {
-  max-width: 359px;
+  max-width: 400px;
   font-size: 20px;
+  line-height: 30px;
   font-family: "ubuntu";
   color: #000033 !important;
   font-weight: 600;
@@ -115,7 +118,7 @@ body {
 }
 
 .case_02_para2 {
-  max-width: 359px;
+  max-width: 400px;
   font-size: 16px;
   font-family: "ubuntu";
   color: #000033 !important;
@@ -162,8 +165,8 @@ body {
   font-weight: 600;
   margin: 0px;
   font-family: "ubuntu", sans-serif !important;
-  font-size: 35px;
-  line-height: 45px;
+  font-size: 25px;
+  line-height: 35px;
   margin: 20px 0px;
   color :#000;
 }
@@ -172,8 +175,8 @@ body {
   font-weight: 300;
   margin: 0px;
   font-family: "ubuntu", sans-serif !important;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 30px;
   margin: 20px 0px;
 }
 
@@ -253,17 +256,7 @@ body {
     padding: 8%;
   }
 
-  .stickyItem p:first-child {
-    font-size: 35px;
-    line-height: 55px;
-    margin: 20px 0px;
-  }
-
-  .stickyItem p:nth-child(2) {
-    font-size: 40px;
-    line-height: 45px;
-    margin: 20px 0px;
-  }
+  
 
   .discoverMore {
     font-size: 30px;
@@ -284,17 +277,7 @@ body {
     padding: 8%;
   }
 
-  .stickyItem p:first-child {
-    font-size: 35px;
-    line-height: 45px;
-    margin: 20px 0px;
-  }
-
-  .stickyItem p:nth-child(2) {
-    font-size: 30px;
-    line-height: 40px;
-    margin: 20px 0px;
-  }
+  
 
   .discoverMore {
     font-size: 30px;
@@ -330,18 +313,6 @@ body {
     padding: 8%;
   }
 
-  .stickyItem p:first-child {
-    font-size: 28px;
-    line-height: 35px;
-    margin: 20px 0px;
-  }
-
-  .stickyItem p:nth-child(2) {
-    font-size: 25px;
-    line-height: 35px;
-    margin: 20px 0px;
-  }
-
   .discoverMore {
     font-size: 28px;
   }
@@ -370,15 +341,8 @@ body {
     padding: 8%;
   }
 
-  .stickyItem p:first-child {
-    font-size: 26px;
-    line-height: 30px;
-  }
+  
 
-  .stickyItem p:nth-child(2) {
-    font-size: 23px;
-    line-height: 27px;
-  }
 
   .discoverMore {
     font-size: 25px;
@@ -431,7 +395,7 @@ body {
 
   .stickyItem p:first-child {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 26px;
     margin: 0px 0px 20px;
   }
 
@@ -1666,7 +1630,7 @@ body {
 
 .transfromPara {
   color: #000033;
-  font-size:320px;
+  font-size:32px;
   font-family: "ubuntu";
   font-weight: 400;
 }
@@ -1714,7 +1678,7 @@ body {
 
 @media only screen and (min-width: 2000px) {
   .middle_page_1 {
-    height: 85vh;
+    height: 900px;
   }
 
   .textTform {
@@ -1740,7 +1704,7 @@ body {
   }
 
   .BussinessText {
-    width: 900px;
+    width: 850px;
     position: absolute;
     top: 0;
     left: 50%;
@@ -1750,10 +1714,6 @@ body {
     width: 25%;
   }
 
-  .transfromPara {
-    font-size: 30px;
-  }
-
   .iframeMargin {
     margin-top: 50px;
   }
@@ -1761,7 +1721,7 @@ body {
 
 @media only screen and (max-width: 2000px) {
   .middle_page_1 {
-    height: 80vh;
+    height: 800px;
   }
   .iframeMargin {
     margin-top: 50px;
@@ -1813,9 +1773,7 @@ body {
 }
 
 @media only screen and (max-width: 1800px) {
-  .middle_page_1 {
-    height: 65vh;
-  }
+ 
 
   .vector_img {
     float: right;
@@ -1853,7 +1811,7 @@ body {
 
 @media only screen and (max-width: 1700px) {
   .middle_page_1 {
-    height: 790px;
+    height: 700px;
   }
 
   .textTform {
@@ -1882,7 +1840,7 @@ body {
 
 @media only screen and (max-width: 1440px) {
   .middle_page_1 {
-    height: 650px;
+    height: 600px;
   }
 
   .group_83 {
@@ -2016,7 +1974,7 @@ body {
 
 @media only screen and (max-width: 1000px) {
   .middle_page_1 {
-    height: 490px;
+    height: 450px;
   }
 
   .group_83 {
@@ -2061,9 +2019,7 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
-  .middle_page_1 {
-    height: 490px;
-  }
+ 
 
   .group_83 {
     width: 90px;

@@ -153,29 +153,31 @@ body {
   background-color: #f3f8fb;
   border-radius: 20px;
   margin-top: 1%;
+  
 }
 
 .massaging {
   font-family: "Ubuntu";
   font-weight: 500;
-  font-size: 30px;
-  line-height: 25px;
+  font-size: 25px;
+  line-height: 35px;
   color: #78a183;
 }
 
 .teachers {
   font-family: "Ubuntu";
   font-weight: 400;
-  font-size: 19px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 26px;
   color: #1b3954;
 }
 
 .mentioned {
   font-family: "Ubuntu";
   font-weight: 500;
-  font-size: 26px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
 }
 
 .tms {
@@ -936,14 +938,16 @@ body {
 /* ================================================= */
 
 /* feature */
-
+.display_flex {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: row;
+}
 .featureContainer {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 2%;
-  /* align-items: center; */
-  /* gap: 5%; */
+  flex-direction: row;
+  gap: 20px;
 }
 .feature_min{
   padding: 2%;
@@ -958,21 +962,19 @@ body {
   color: #1B3954;
 }
 
-@media only screen and (max-width: 2000px) {}
-
-@media only screen and (max-width: 1800px) {}
-
-@media only screen and (max-width: 1500px) {}
-
-@media only screen and (max-width: 1200px) {}
 
 @media only screen and (max-width: 1024px) {
 
-
+  .display_flex{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
   .trans_container {
     display: block;
   }
 }
+
 
 @media only screen and (max-width: 800px) {
   
@@ -980,8 +982,10 @@ body {
 
 @media only screen and (max-width: 768px) {
   .featureContainer {
-    display: block;
+    flex-direction: column;
+
   }
+
   .feature_min{
     max-width: 100%;
   }
@@ -1003,14 +1007,12 @@ body {
     /* text-align: justify; */
   }
   .massaging{
-    height: 30px;
+    height: 50px;
     font-size: 20px;
     text-align: center;
   }
   .teachers{
     text-align: center;
-    font-size: 16px;
-    line-height: 19px;
   }
 }
 
