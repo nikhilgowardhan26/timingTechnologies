@@ -6,6 +6,29 @@ html, body {
     /* overflow-x: hidden; */
 }
 
+
+
+/* scrollar  */
+/* WebKit Browsers (Chrome, Safari, and Edge) */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d22027;
+  border-radius: 10px;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #d22027 rgb(255, 255, 255);
+}
 .margin-top {
     margin-top: 100px;
 }

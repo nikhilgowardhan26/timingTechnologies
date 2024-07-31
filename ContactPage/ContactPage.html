@@ -7,6 +7,7 @@
     <title>Timing</title>
     <link rel="stylesheet" href="../ContactPage/ContactPage.css">
     <link rel="stylesheet" href="../css/form_style.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -16,23 +17,90 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" type="image/x-icon" href="../images/favicon/T_favicon.png">
     <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/axios/dist/axios.js"></script>
     <style>
         #navItem-contact {
-            color: #d22027;
-            }
+            color: #d22027;            
+        }
+        .form-error {
+            color: red;
+            font-size:14px;
+        }
     </style>
+      <script>
+
+        var errors ;
+        function submitForm(e) {
+            // e.preventDefault();
+
+            const name = document.getElementById('name').value.trim();
+            const mobile = document.getElementById('mobile').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            let isValid = true;
+            document.querySelectorAll('.form-error').forEach(el => el.textContent = ''); 
+
+            if (!name) {
+                document.getElementById('nameError').textContent = 'Name is required';
+                isValid = false;
+            }
+            const phoneRegex = /^\d{1,10}$/; // Regex for 1 to 10 digits
+            if (!mobile) {
+                document.getElementById('mobileError').textContent = 'Phone number is required';
+                isValid = false;
+            } else if (!phoneRegex.test(mobile)) {
+                document.getElementById('mobileError').textContent = 'Phone number must be up to 10 digits';
+                isValid = false;
+            }
+            if (!email || !/\S+@\S+\.\S+/.test(email)) {
+                document.getElementById('emailError').textContent = 'Valid email is required';
+                isValid = false;
+            }
+            if (!message) {
+                document.getElementById('messageError').textContent = 'Message is required';
+                isValid = false;
+            }
+
+            if (!isValid) {
+                return; 
+            }
+            const formData = {
+                name : name,
+                mobile : mobile,
+                email : email,
+                message : message,
+            };
+
+            console.log(formData);
+            
+            axios.post('https://www.timingindia.org/ttipl/api/contactus.php', formData)
+                .then(response => {
+                    // alert('Form submitted successfully!');
+                    console.log(response.data);
+                    document.getElementById('myForm').reset();
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                    const toast = new bootstrap.Toast(document.getElementById('successToast'));
+                    toast.show();
+                })
+                .catch(error => {
+                    alert('An error occurred while submitting the form.');
+                    errors(error);
+                });
+        }
+    </script>
 </head>
 
 <body>
     <div id="header-content"></div>
-    <div class="main-space container">
+    <div class="main-space container" data-aos="fade-down">
         <div class="weAreHere" >
             <div class="col my-3">
-                <p class="here" data-aos="fade-right">We’re here for you.</p>
-                <p class="how" data-aos="fade-left">Regardless of how minor or major your queries are, we ensure to listen and act on them
+                <h3 class="text-danger text fw-bold" >We’re here for you.</h3>
+                <p class="how" >Regardless of how minor or major your queries are, we ensure to listen and act on them
                     right away.</p>
                 <hr className="text-secondary my-4">
-                <div className="reachC my-4" data-aos="fade-up">
+                <div className="reachC my-4" >
                     <div  class="col">
                         <div class="reachus">Reach us</div>
                         <address>3rd Floor, Block 1 (West Wing)<br>
@@ -50,27 +118,29 @@
                 </div>
             </div>
             <div class="col py-3">
-                <div class="form-floating mb-4" data-aos="fade-up">
-                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput" class="name">Name*</label>
-                </div>
-                <div class="form-floating mb-4"  data-aos="fade-up">
-                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput" class="name">Phone Number*</label>
-                </div>
-                <div class="form-floating mb-4" data-aos="fade-up">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput" class="name">Email address*</label>
-                </div>
-                <div class="form-floating mb-4" data-aos="fade-up">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                        style="height: 124px"></textarea>
-                    <label for="floatingTextarea2" class="name">Message*</label>
-                </div>
-                <div class="form-floating ">
-                    <button type="button" class="border-0 text-light bg-danger px-5 py-2"
-                        style="border-radius: 3px;">Submit</button>
-                </div>
+                <form id="myForm"  onsubmit="return false;">
+                    <div class="form-floating mb-4">
+                        <input type="text" class="form-control" required id="name" name="name" placeholder="Name">
+                        <label for="name">Name*</label>
+                        <div class="form-error" id="nameError"></div>
+                    </div>
+                    <div class="form-floating mb-4">
+                        <input type="text" class="form-control" required id="mobile" name="mobile" placeholder="Phone Number">
+                        <label for="phoneNumber">Phone Number*</label>
+                        <div class="form-error" id="mobileError"></div>
+                    </div>
+                    <div class="form-floating mb-4">
+                        <input type="email" class="form-control" required id="email" name="email" placeholder="Email address">
+                        <label for="email">Email address*</label>
+                        <div class="form-error" id="emailError"></div>
+                    </div>
+                    <div class="form-floating mb-4">
+                        <textarea class="form-control" id="message" required name="message" placeholder="Leave a comment here" style="height: 124px"></textarea>
+                        <label for="message">Message*</label>
+                        <div class="form-error" id="messageError"></div>
+                    </div>
+                    <button type="button" onclick="submitForm()" class="btn btn-danger" >Submit</button>
+                </form>
             </div>
         </div>
     </div>
@@ -86,18 +156,42 @@
     <!-- Curious about how we work? -->
     
     <div id="footer-content"></div>
+    
+
+    <!-- toast -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="successToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto text-success">Success</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Your form has been submitted successfully!
+            </div>
+        </div>
+    </div>
+    <!-- toast -->
+
+
+
+
+
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous">
     </script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script type="text/javascript">
             $("#header-content").load('../header/header.html');
             $("#footer-content").load('../footer/footer.html');
             $("#curious-content").load('../curious/curious.html');
             AOS.init();
     </script>
+   
 </body>
 
 </html>

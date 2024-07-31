@@ -14,22 +14,6 @@ body {
 #navItem-Services {
     color: #d22027 !important ;
   }
-/* .navbar-light .navbar-nav .nav-link {
-    font-family: 'Ubuntu', sans-serif;
-    color: #000033 !important;
-    font-weight: 500;
-    font-size: 19px !important;
-    /* margin-right: 15px; */
-
-
-
-/* .navbar-light .navbar-nav .nav-link:focus {
-    color: #D22027 !important;
-    font-weight: 00;
-    font-size: 19px !important;
-   
-
-} */ 
 
 .ai {
     font-family: 'Ubuntu', sans-serif;
@@ -190,14 +174,9 @@ body {
     background: #d22027; 
     border-radius: 10px;
   }
-  
-  /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #ffffff; 
   }
-
-  /* Finer Quality Assurance for your products */
-
 @media only screen and (min-width: 2000px){ 
     
     .introduction{
@@ -240,10 +219,7 @@ body {
         line-height: 22px;
     }
  }
-@media only screen and (max-width: 800px){ 
-    
-    
-}
+
 
 @media only screen and (max-width: 768px){
     .main-top{
@@ -263,12 +239,8 @@ body {
         line-height: 22px;
     }
 }
-@media only screen and (max-width: 320px){
-    
- }
 
-  /* Finer Quality Assurance for your products */
-  /* QA as a Service provides */
+
   .each {
     display: flex;
     gap: 5%;
@@ -394,7 +366,6 @@ body {
         line-height: 26px !important;
     }
 }
-@media only screen and (max-width: 800px){ }
 @media only screen and (max-width: 768px){
     .testText{
         font-size: 25px;

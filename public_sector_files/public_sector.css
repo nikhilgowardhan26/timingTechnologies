@@ -21,29 +21,6 @@ body {
   background: #ffffff;
 }
 
-/* #navbarNav {
-  margin-right: 70px;
-} */
-
-.navbar-light .navbar-nav .nav-link {
-  font-family: "Ubuntu", sans-serif;
-  color: #000033 !important;
-  font-weight: 500;
-  font-size: 19px !important;
-  /* margin-right: 15px; */
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #d22027 !important;
-  font-weight: 500;
-  font-size: 19px !important;
-  /* margin-right: 15px; */
-}
-
-/* middle css file */
-/* .main-top {
-  margin-top: 5%;
-} */
 .secondary {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
@@ -72,8 +49,8 @@ body {
 }
 .suitable {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 50px;
+  font-size: 18px;
+  line-height: 28px;
   color: #1b3954;
 }
 .easy {
@@ -122,8 +99,8 @@ body {
 .hold {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
-  font-size: 28px;
-  line-height: 50px;
+  font-size: 18px;
+  line-height: 28px;
   color: #000033;
 }
 .providing {
@@ -134,16 +111,16 @@ body {
 .modest {
   font-family: "Ubuntu", sans-serif;
   color: #ffffff !important;
-  font-weight: 700;
-  font-size: 31px;
-  line-height: 50px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
 }
 .looking {
   font-family: "Ubuntu", sans-serif;
   color: #ffffff !important;
   font-weight: 400;
-  font-size: 29px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 30px;
 }
 .learn {
   font-family: "Ubuntu", sans-serif;
@@ -252,8 +229,7 @@ i {
 .rfid {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
-  font-size: 46px;
-  line-height: 52.5px;
+  
 }
 
 .rfi {
@@ -673,6 +649,8 @@ a {
   border-radius: 0px 0px 250px 0px;
 }
 .sol-ass {
+  font-size: 16px;
+  line-height: 26px;
   text-align: justify;
 }
 .threeIcons {
@@ -689,8 +667,8 @@ a {
 .fundamentally {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
-  font-size: 25px;
-  line-height: 40.5px;
+  font-size: 20px;
+  line-height: 30px;
   color: #000033;
 }
 
@@ -710,11 +688,7 @@ a {
   .our_timing {
     font-size: 30px;
   }
-  .suitable {
-    font-size: 27px;
-    line-height: 32px;
-    text-align: justify;
-  }
+  
 }
 @media only screen and (max-width: 2000px) {
   .mdck_container {
@@ -726,18 +700,10 @@ a {
   .our_timing {
     font-size: 30px;
   }
-  .suitable {
-    font-size: 27px;
-    line-height: 32px;
-    text-align: justify;
-  }
+  
 }
 @media only screen and (max-width: 1800px) {
-  .suitable {
-    font-size: 25px;
-    line-height: 30px;
-    text-align: justify;
-  }
+  
 }
 @media only screen and (max-width: 1500px) {
   .suitable {
@@ -755,10 +721,7 @@ a {
     line-height: 24px;
     font-weight: 400;
   }
-  .looking {
-    font-size: 17px;
-    line-height: 22px;
-  }
+ 
 }
 @media only screen and (max-width: 1024px) {
   .mdck_container {
@@ -772,11 +735,7 @@ a {
     line-height: 28px;
     text-align: justify;
   }
-  .fundamentally {
-    font-size: 17px;
-    line-height: 23px;
-    text-align: justify;
-  }
+ 
   .threeIcons {
     display: block !important;
     .hold {
@@ -792,9 +751,7 @@ a {
       margin: 4px;
     }
   }
-  .sol-ass {
-    font-size: 17px;
-  }
+  
 
   .monitor,
   .our_timing {
@@ -806,10 +763,7 @@ a {
     line-height: 24px;
     font-weight: 400;
   }
-  .looking {
-    font-size: 17px;
-    line-height: 22px;
-  }
+  
 }
 @media only screen and (max-width: 800px) {
   .mdck_container {
@@ -822,17 +776,10 @@ a {
     line-height: 20px;
     font-weight: 400;
   }
-  .looking {
-    font-size: 16px;
-    line-height: 18px;
-  }
+  
 }
 @media only screen and (max-width: 768px) {
-  .fundamentally {
-    font-size: 15px;
-    line-height: 20px;
-    text-align: justify;
-  }
+ 
   .hold {
     font-size: 17px !important;
     line-height: 20px;
@@ -854,12 +801,8 @@ a {
       border-radius: 0px 0px 100px 0px;
     }
   }
-  .sol-ass {
-    font-size: 15px;
-  }
-  .rfid {
-    font-size: 25px;
-  }
+  
+  
   .monitor,
   .our_timing {
     font-size: 22px;
@@ -871,36 +814,27 @@ a {
     font-weight: 400;
   }
   .looking {
-    font-size: 15px;
-    line-height: 17px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .fundamentally{
+    font-size: 18px;
+    line-height: 28px;
   }
 }
 @media only screen and (max-width: 426px) {
   .mdck_container {
     display: block !important;
   }
-  .rfid {
-    font-size: 25px;
-  }
+  
 
   .monitor,
   .our_timing {
     font-size: 22px;
     line-height: 25px;
   }
-  .fundamentally {
-    font-size: 15px;
-    line-height: 20px;
-    text-align: justify;
-  }
-  .hold {
-    font-size: 14px !important;
-    line-height: 20px;
-    text-align: center;
-  }
-  .sol-ass {
-    font-size: 15px;
-  }
+  
+  
   .suitable {
     font-size: 15px;
     line-height: 19px;
@@ -924,9 +858,7 @@ a {
   }
 }
 @media only screen and (max-width: 320px) {
-  .rfid {
-    font-size: 23px;
-  }
+  
 
   .chips {
     font-size: 14px;
@@ -938,9 +870,7 @@ a {
     font-size: 20px;
     line-height: 25px;
   }
-  .sol-as {
-    font-size: 14px;
-  }
+ 
   .suitable {
     font-size: 14px;
     line-height: 18px;
@@ -964,7 +894,7 @@ a {
 .tSolutionContainer {
   display: flex;
   align-items: center;
-  margin: 3% 0;
+  
 }
 .solutionIcons {
   margin: 0 auto;
@@ -996,10 +926,7 @@ a {
     }
   }
 }
-@media only screen and (max-width: 425px) {
-}
-@media only screen and (max-width: 320px) {
-}
+
 /* timing solutions are  */
 
 /* 
@@ -1023,7 +950,8 @@ a {
   color: #0d1035;
   font-family: "ubuntu" !important;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 18px;
+  line-height: 28px;
   text-align: center;
 }
 .main-topSecond {
@@ -1045,37 +973,13 @@ a {
   }
 }
 
-@media only screen and (min-width: 2000px) {
-}
-@media only screen and (max-width: 2000px) {
-}
-@media only screen and (max-width: 1800px) {
-  .govText {
-    font-size: 22px;
-    line-height: 28px;
-  }
-  .associateText {
-    font-size: 21px;
-    line-height: 27px;
-  }
-}
-@media only screen and (max-width: 1500px) {
-}
+
 @media only screen and (max-width: 1308px) {
   .main-topSecond {
     margin: 0 -16%;
   }
 }
-@media only screen and (max-width: 1024px) {
-  .govText {
-    font-size: 20px;
-    line-height: 27px;
-  }
-  .associateText {
-    font-size: 21px;
-    line-height: 27px;
-  }
-}
+
 @media only screen and (max-width: 800px) {
   .main-topSecond {
     margin: 0 -17%;
@@ -1083,35 +987,30 @@ a {
 }
 @media only screen and (max-width: 768px) {
   .govText {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 22px;
+    line-height: 32px;
   }
-  .associateText {
-    font-size: 18px;
-    line-height: 24px;
+  .govofIndiaParent{
+    margin-top: 80px;
   }
+  
 }
 @media only screen and (max-width: 425px) {
-  .govText {
-    font-size: 14px;
-    line-height: 20px;
-  }
-  .associateText {
-    font-size: 14px;
-    line-height: 18px;
-  }
+  
+ 
   .main-topSecond {
     margin: 0 -19%;
   }
 }
-@media only screen and (max-width: 320px) {
-}
+
 
 /* the gov of india text */
 
 .easyContainer {
   display: flex;
   transition: all 0.5 ease;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .verticalLine {
@@ -1123,18 +1022,6 @@ a {
   transition: all 0.5 ease;
 }
 
-@media only screen and (max-width: 2000px) {
-}
-@media only screen and (max-width: 1800px) {
-}
-@media only screen and (max-width: 1500px) {
-}
-@media only screen and (max-width: 1200px) {
-}
-@media only screen and (max-width: 1024px) {
-}
-@media only screen and (max-width: 800px) {
-}
 @media only screen and (max-width: 768px) {
   .easyContainer {
     display: block;
@@ -1149,7 +1036,5 @@ a {
     transition: all 0.5 ease;
   }
 }
-@media only screen and (max-width: 425px) {
-}
-@media only screen and (max-width: 320px) {
-}
+
+

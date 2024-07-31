@@ -8,64 +8,18 @@ body {
   padding: 0px;
   overflow-x: hidden;
 }
-
 .margin-top {
   margin-top: 100px;
 }
-.navbar {
-  background: #ffffff;
-}
-
-
-.navbar-light .navbar-nav .nav-link {
-  font-family: "Ubuntu", sans-serif;
-  color: #000033 !important;
-  font-weight: 500;
-  font-size: 19px !important;
-  /* margin-right: 15px; */
-}
-
-.navbar-light .navbar-nav .nav-link:focus {
-  color: #d22027 !important;
-  font-weight: 00;
-  font-size: 19px !important;
-  /* margin-right: 15px; */
-}
-
-
 .letus {
-  font-size: 54px;
-  font-weight: 400;
-  line-height: 74px;
-  transition: all 0.5s ease;
-  span {
-    font-weight: 700;
-    transition: all 0.5s ease;
-  }
 
+  font-family: 'ubunut', sans-serif;
 }
-.name {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 45px;
-  color: #29455e;
-  transition: all 0.5 ease;
-  
-}
-.form-floating > label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  padding: 0.3rem 0.75rem !important;
-  pointer-events: none;
-  border: 1px solid transparent;
-  transform-origin: 0 0;
-  transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
-}
+
+
 .reqBtn{
-  transition: all 0.5 ease;
   border: none;
+  font-size: 18px;
   border-radius: 8px; 
   font-family: ubuntu; 
   font-weight: 500;
@@ -73,37 +27,17 @@ body {
   padding: 10px;
 }
 
-
+/* 
 @media only screen and (max-width: 1500px){
-  .letus{
-    font-size: 33px;
-    font-weight: 500;
-    line-height: 25px;
-    
-  }
+  
   .name{
     font-size: 18px;
   }
  
  }
 
-@media only screen and (max-width: 1024px){
-  .letus{
-    font-size: 30px;
-    font-weight: 500;
-    line-height: 25px;
-  }
- }
-
 @media only screen and (max-width: 768px){
-  .letus{
-    font-size: 25px;
-    line-height: 35px;
-    
-  }
   .name{
     font-size: 16px;
   }
-  
-  
- }
+ } */
