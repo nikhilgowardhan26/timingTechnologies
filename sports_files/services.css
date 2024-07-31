@@ -9,16 +9,12 @@ body {
   font-family: "Ubuntu", sans-serif;
   margin: 0px;
   padding: 0px;
-  /* overflow-x: hidden; */
 }
-
 #navItem-Services {
   color: #d22027;
 }
-
-/* middle css */
 .main-top {
-  /* margin-top: 5%; */
+
   position: relative;
   video {
     width: 100%;
@@ -79,11 +75,11 @@ body {
 
 .large-scale {
   font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
+  /* font-weight: 700;
   font-size: 28px;
-  line-height: 38px;
+  line-height: 38px; */
   color: #272727f2;
-  transition: all 0.5 ease !important;
+  /* transition: all 0.5 ease !important; */
 }
 .mPara {
   font-size: 16px;
@@ -93,23 +89,23 @@ body {
 .happy {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 28px;
   transition: all 0.5 ease !important;
 }
 
 .rfid {
   font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
-  font-size: 46px;
-  line-height: 52.5px;
+  /* font-weight: 700; */
+  /* font-size: 46px; */
+  /* line-height: 52.5px; */
 }
 
 .rfi {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
-  font-size: 35px;
-  line-height: 52.5px;
+  /* font-size: 35px;
+  line-height: 52.5px; */
 }
 
 .fundamentally {
@@ -438,9 +434,7 @@ i {
     line-height: 25px;
     padding: 0 4%;
   }
-  .rfid {
-    font-size: 25px;
-  }
+  
   .rfi {
     font-size: 22px;
     line-height: 26px;
@@ -466,9 +460,7 @@ i {
     line-height: 25px;
     padding: 0 4%;
   }
-  .rfid {
-    font-size: 25px;
-  }
+ 
   .rfi {
     font-size: 22px;
     line-height: 26px;
@@ -494,9 +486,7 @@ i {
     line-height: 25px;
     padding: 0 4%;
   }
-  .rfid {
-    font-size: 25px;
-  }
+ 
   .rfi {
     font-size: 20px;
     line-height: 26px;
@@ -529,9 +519,7 @@ i {
     flex-wrap: wrap;
     gap: 5%;
   }
-  .rfid {
-    font-size: 25px;
-  }
+
   .rfi {
     font-size: 19px;
     line-height: 26px;
@@ -567,9 +555,7 @@ i {
     line-height: 25px;
     padding: 0 4%;
   }
-  .rfid {
-    font-size: 25px;
-  }
+
   .rfi {
     font-size: 18px;
     line-height: 26px;
@@ -593,14 +579,7 @@ i {
   .rfid_bg {
     border-radius: 0px 0px 100px 0px;
   }
-  .large-scale {
-    font-size: 25px;
-    line-height: 35px;
-  }
-  .happy {
-    font-size: 18px;
-    line-height: 28px;
-  }
+
   .ifinish {
     font-size: 19px;
     line-height: 12.5px;
@@ -610,9 +589,7 @@ i {
     line-height: 25px;
     padding: 0 4%;
   }
-  .rfid {
-    font-size: 25px;
-  }
+ 
   .rfi {
     font-size: 18px;
     line-height: 26px;
@@ -635,10 +612,7 @@ i {
   }
 }
 @media only screen and (max-width: 425px) {
-  .large-scale {
-    font-size: 20px;
-    line-height: 30px;
-  }
+
   .happy {
     font-size: 16px;
     line-height: 26px;
@@ -652,9 +626,7 @@ i {
     line-height: 18px;
     padding: 0 4%;
   }
-  .rfid {
-    font-size: 25px;
-  }
+ 
   .rfi {
     font-size: 17px;
     line-height: 26px;
@@ -685,9 +657,7 @@ i {
     line-height: 18px;
     padding: 0 4%;
   }
-  .rfid {
-    font-size: 25px;
-  }
+
   .rfi {
     font-size: 14px;
     line-height: 20px;
@@ -707,9 +677,7 @@ i {
   }
 }
 
-/* .tracking{
-  position: absolute;
-} */
+
 .TrackingParent {
   /* margin-top: 7vh auto auto 0; */
   max-width: 1308px;
@@ -858,22 +826,6 @@ i {
     font-size: 18px;
     line-height: 20px;
   }
-}
-@media only screen and (max-width: 320px) {
-}
-/* main section  */
-
-@media only screen and (max-width: 2000px) {
-}
-@media only screen and (max-width: 1800px) {
-}
-@media only screen and (max-width: 1500px) {
-}
-@media only screen and (max-width: 1200px) {
-}
-@media only screen and (max-width: 1024px) {
-}
-@media only screen and (max-width: 800px) {
 }
 @media only screen and (max-width: 768px) {
   /* .dummy_box{

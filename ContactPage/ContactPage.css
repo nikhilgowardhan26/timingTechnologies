@@ -1,9 +1,5 @@
-
 .here {
   font-family: "Ubuntu", sans-serif;
-  font-size: 35px;
-  font-weight: 700;
-  color: #d22027;
 }
 .how {
   font-family: "Ubuntu", sans-serif;
@@ -11,13 +7,12 @@
   /* line-height: 28px; */
   font-weight: 500;
   text-align: left;
-  /* line-height: 35px; */
 }
 .reachus {
   font-family: "Ubuntu", sans-serif;
   font-size: 20px;
   font-weight: 500;
-  line-height: 35px;
+  line-height: 30px;
   color: #d22027;
 }
 .name {
@@ -27,7 +22,7 @@
   line-height: 35px;
   color: #29455e;
 }
-.form-floating > label {
+/* .form-floating > label {
   position: absolute;
   top: 0;
   left: 0;
@@ -37,13 +32,11 @@
   border: 1px solid transparent;
   transform-origin: 0 0;
   transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
-}
+} */
 .bg-danger {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
 }
-
-
 
 /* footer css */
 
@@ -60,21 +53,6 @@
 .copyright {
   color: #fff;
 }
-#navBarComponent2:hover {
-  background: #e6e6e6 !important;
-  border-radius: 20px;
-}
-#navBarComponent1:hover {
-  background: #e6e6e6 !important;
-  border-radius: 20px;
-}
-.dropdown-item:hover {
-  background-color: #e6e6e600 !important;
-  color: #161616 !important;
-  font-weight: 700;
-}
-
-
 
 @media only screen and (max-width: 768px) {
   .weAreHeading {
@@ -117,10 +95,6 @@
   .Tpara_02 {
     display: block;
   }
-  .requestBtn {
-    width: 180px !important;
-    padding: 20px !important;
-  }
 }
 @media only screen and (max-width: 600px) {
   .curious {
@@ -131,11 +105,6 @@
     font-size: 23px;
     font-weight: 400;
     line-height: 27px;
-  }
-  .requestBtn {
-    font-size: 15px;
-    line-height: 15px;
-    margin-top: 10px !important;
   }
 }
 
@@ -198,24 +167,13 @@
   .reachC {
     display: block;
   }
-  .here {
-    font-size: 30px;
-    
-    text-align: center;
-  }
-  
+
   .main-space {
     margin-top: 100px;
   }
 }
 @media only screen and (max-width: 425px) {
-  .here {
-    font-size: 25px;
-    text-align: center;
-  }
   .main-space {
     margin-top: 80px;
   }
-  
 }
-

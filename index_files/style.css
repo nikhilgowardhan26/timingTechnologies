@@ -132,7 +132,7 @@ body {
   align-items: flex-start;
   padding-top: 5%;
   position: relative;
-  gap: 3%;
+  gap:10px;
 }
 
 .caseStudyInnerC {
@@ -198,11 +198,16 @@ body {
 
 .image-wrapper {
   width: 50%;
+  padding: 20px;
   position: sticky;
-  top: 25vh;
+  top: 15vh;
+  /* border: 1px solid #ccc; */
+  /* height: 400px; */
+  overflow: hidden;
 
   & img {
     width: 100%;
+    /* height: 100%; */
     border-radius: 0px 15px 15px 0px;
   }
 }
@@ -1533,7 +1538,7 @@ body {
 
 .content_solution {
   color: #000033;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 25px;
   line-height: 35px;
   width: 90%;

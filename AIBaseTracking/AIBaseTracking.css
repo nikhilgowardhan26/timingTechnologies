@@ -1,43 +1,26 @@
-
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
-
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #d22027;
   border-radius: 10px;
 }
-
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #ffffff;
 }
-
-@media only screen and (max-width: 2000px) {}
-
-@media only screen and (max-width: 1800px) {}
-
-@media only screen and (min-width:100px) and (max-width: 500px) {
-
+@media only screen and (min-width: 100px) and (max-width: 500px) {
   .ai-stay {
     margin-top: 5% !important;
   }
-
   .border_pix {
     border: 1px solid #455a64;
     width: 100% !important;
   }
-
-
   .vigorous {
     padding: 5px !important;
   }
-
 }
-
-
 .Wearables {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
@@ -45,18 +28,11 @@
   line-height: 40px;
   color: #455a64;
   text-align: justify;
-  /* padding: 0% 5% 8% 9%; */
 }
-
-
 .ai_Untitled {
   width: 100%;
   margin: 0 auto;
 }
-
-
-
-
 @media only screen and (max-width: 1500px) {
   .method {
     font-family: "Ubuntu", sans-serif;
@@ -65,14 +41,8 @@
     line-height: 23px;
     color: #455a64;
   }
-  
- 
-
 }
-
 @media only screen and (max-width: 1200px) {
-  
-
   .method {
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
@@ -80,23 +50,16 @@
     line-height: 23px;
     color: #455a64;
   }
-  
 }
-
 @media only screen and (max-width: 1024px) {
-  
-
   .ai_Untitled {
     width: 80% !important;
   }
- 
 }
 
-
-
 @media only screen and (max-width: 425px) {
-    .influences, .read{
-      font-size: 15px ;
-    }
-   
+  .influences,
+  .read {
+    font-size: 15px;
+  }
 }

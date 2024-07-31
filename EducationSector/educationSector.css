@@ -629,7 +629,7 @@ body {
 }
 
 .eduction_text {
-  position: absolute;
+  /* position: absolute; */
   text-align: left;
   left: 5%;
   top: 0;
@@ -686,6 +686,7 @@ body {
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns:  repeat(2, 1fr);
   gap: 2%;
+  float: right;
 }
 .item1, .item2, .item3{
   font-size: 17px;
@@ -756,9 +757,9 @@ body {
 }
 
 .gridParent{
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  position: relative;
+  /* bottom: 0;
+  rig: 700px; */
 }
 
 @media only screen and (min-width: 2000px) {
@@ -1020,9 +1021,7 @@ body {
 
 /* feature */
  /* Student Administration Software  */
- .stdAdm_Container {
-  margin-top: 200px;
- }
+ 
 
 .sas, .cms {
   font-family: "Ubuntu";
@@ -1051,10 +1050,9 @@ body {
   justify-content: center;
   gap: 10%;
 }
-@media only screen and (max-width: 2000px){ }
-@media only screen and (max-width: 1800px){ }
-@media only screen and (max-width: 1500px){ }
-@media only screen and (max-width: 1200px){ }
+.stdAdm_Container {
+  margin-top: 520px;
+ }
 @media only screen and (max-width: 1024px){
   .sasContainer, .cmdContainer{
     display: block;
@@ -1063,16 +1061,15 @@ body {
     width: 100%;
     margin: 0 auto;
   }
-  .stdAdm_Container{
-    margin-top: 150px;
-  }
+ 
+  
 }
-@media only screen and (max-width: 800px){ }
-@media only screen and (max-width: 768px){ 
-  .stdAdm_Container{
-    margin-top: 50px;
-  }
+@media only screen and (max-width: 768px){
+  .stdAdm_Container {
+    margin-top: 400px;
+   }
 }
+
 @media only screen and (max-width: 425px){ 
   .stdAdm_Container{
     margin-top: 50px;

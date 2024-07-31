@@ -179,8 +179,8 @@
             <div class="weofferBox1">
                 <div class="byIndustry">
                     <img loading="lazy" src="../images/Group 117.png" alt="" class="industryImage"
-                        onmouseover="showTarget1()" onmouseout="hideTarget1()">
-                    <div id="semiContainer" onmouseover="showTarget1()" onmouseout="hideTarget1()">
+                        onmouseover="showTarget1()" >
+                    <div id="semiContainer" onmouseover="showTarget1()" >
                         <img loading="lazy" src="../images/Group 119.png" class="semiCircle_01" />
                         <a onmouseenter="showTarget1()" href="../sports_files/services.html" class="glowIcons">
                             <div class="semiCircle_01_icon1 semiCircleDimensions">
@@ -204,7 +204,7 @@
                 <div class="byIndustry">
                     <img loading="lazy" src="../images/Group 118.png" alt="" class="expertiseImage"
                         onmouseover="showTarget2()" onmouseout="hideTarget2()">
-                    <div id="circleContainer" onmouseover="showTarget2()" onmouseout="hideTarget2()">
+                    <div id="circleContainer" onmouseover="showTarget2()" >
                         <img loading="lazy" src="../images/Group 120.png" class="semiCircle_02" />
                         <a onmouseenter="showTarget2()" href="../AIBaseTracking/AIBaseTracking.html">
                             <div class="semiCircle_02_icon1 semiCircleDimensions">
@@ -275,12 +275,12 @@
 
         <div class=" case_01">
             <img loading="lazy" src="../images/Vector (4).png" alt="Vector4" class="caseStudyVector4 img-fluid">
-            <div class="caseStudyInnerC">
+            <div class=" caseStudyInnerC">
                 <img loading="lazy" src="../images/Vector (5).png" alt="" class="caseStudyVector5  img-fluid">
-                <div class="stickyContainer ">
+                <div class=" container stickyContainer ">
                     <div class="image-wrapper">
                         <img loading="lazy"
-                            src="../images/demo/demo_3.png"
+                            src="../images/demo/demo_0.png"
                             id="stickyImage" class="img-fluid" />
                     </div>
                     <div class="content">
@@ -374,11 +374,29 @@
             const clone = marquee.cloneNode(true);
             marquee.parentNode.appendChild(clone);
         });
-        $(document).ready(function () {
-            $("#header-content").load('../header/header.html');
-            $("#footer-content").load('../footer/footer.html');
-            $("#curious-content").load('../curious/curious.html');
+
+
+       document.addEventListener('DOMContentLoaded', function () {
+            loadContent('../header/header.html', '#header-content');
+            loadContent('../footer/footer.html', '#footer-content');
+            loadContent('../curious/curious.html', '#curious-content');
         });
+
+        function loadContent(url, selector) {
+            fetch(url)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Failed to fetch ${url}: ${response.status} ${response.statusText}`);
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    document.querySelector(selector).innerHTML = data;
+                })
+                .catch(error => {
+                    console.error(error);
+                });
+        }
 
 
         let i = 0;

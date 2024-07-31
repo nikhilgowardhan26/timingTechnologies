@@ -31,17 +31,20 @@
 }
 #formList {
   width: 100%;
-  overflow: auto;
+  overflow: auto ;
   margin: 20px auto;
   scroll-behavior: smooth;
   scroll-snap-type: both;
+  overflow-x: scroll; /* Allow horizontal scrolling */
+  scrollbar-width: none; 
 }
 #formList::-webkit-scrollbar {
-  display: none;
+  display: none ;
+   overflow-x: scroll; /* Allow horizontal scrolling */
+  scrollbar-width: none; 
 }
 .item .card {
   height: 390px !important;
- 
 }
 .direction {
   text-align: center;
